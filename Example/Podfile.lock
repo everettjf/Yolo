@@ -1,0 +1,14 @@
+PODS:
+  - EVTTabPageScrollView (0.1.0)
+
+DEPENDENCIES:
+  - EVTTabPageScrollView (from `../`)
+
+EXTERNAL SOURCES:
+  EVTTabPageScrollView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  EVTTabPageScrollView: ade378148dcd28ff1b48fccf3b20d7f6d0851f1a
+
+COCOAPODS: 0.38.2

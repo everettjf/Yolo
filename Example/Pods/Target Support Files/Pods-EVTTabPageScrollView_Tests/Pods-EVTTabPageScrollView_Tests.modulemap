@@ -1,0 +1,6 @@
+framework module Pods_EVTTabPageScrollView_Tests {
+  umbrella header "Pods-EVTTabPageScrollView_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

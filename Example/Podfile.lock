@@ -1,14 +1,18 @@
 PODS:
-  - EVTTabPageScrollView (0.1.0)
+  - EVTTabPageScrollView (0.1.0):
+    - Masonry (~> 0.6)
+  - Masonry (0.6.3)
 
 DEPENDENCIES:
   - EVTTabPageScrollView (from `../`)
+  - Masonry (~> 0.6)
 
 EXTERNAL SOURCES:
   EVTTabPageScrollView:
     :path: "../"
 
 SPEC CHECKSUMS:
-  EVTTabPageScrollView: ade378148dcd28ff1b48fccf3b20d7f6d0851f1a
+  EVTTabPageScrollView: 48cb4ea63e39a12c2e8471efc4efd0ecbd799215
+  Masonry: ff105a956abcd19a618b2028b121cb638d7a8e2f
 
 COCOAPODS: 0.38.2

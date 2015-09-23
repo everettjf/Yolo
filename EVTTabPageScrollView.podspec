@@ -19,12 +19,12 @@ Pod::Spec.new do |s|
   s.description      = <<-DESC
                        DESC
 
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/EVTTabPageScrollView"
+  s.homepage         = "https://github.com/everettjf/EVTTabPageScrollView"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "everettjf" => "everettjf@live.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/EVTTabPageScrollView.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => "https://github.com/everettjf/EVTTabPageScrollView.git", :tag => s.version.to_s }
+  # s.social_media_url = 'https://twitter.com/everettjf
 
   s.platform     = :ios, '7.0'
   s.requires_arc = true
@@ -36,5 +36,5 @@ Pod::Spec.new do |s|
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'Masonry', '~> 0.6'
 end

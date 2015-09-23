@@ -14,6 +14,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Masonry.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-EVTTabPageScrollView_Example.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -27,22 +32,27 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>0B8116459E40192F58F38B94C5B16345</key>
+		<key>7F2482EDD6543B05D8AEBF941860066E</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>68933ECF30DD8BD3AD5CB829BF857A2E</key>
+		<key>9A9A26F219CECC45F3D702439FB141D1</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>8854CB8F425DA6DF7F2DE2F58B2E66D7</key>
+		<key>A4BB92AF551803CE01192A782FD09FDE</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>DE059AE22F83DC1096AE3CD9F7D3781B</key>
+		<key>C3B75E1E410F925C46C7A5B3285DA22D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C4A99142B693BF54B1DCD937D8FE5CFB</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -14,8 +14,8 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "627C43F67C15A94A9A97BC5F"
-               BuildableName = "Pods_EVTTabPageScrollView_Tests.framework"
+               BlueprintIdentifier = "0DEB74049C74C3B877575A7B"
+               BuildableName = "libPods-EVTTabPageScrollView_Tests.a"
                BlueprintName = "Pods-EVTTabPageScrollView_Tests"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>

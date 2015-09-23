@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		54C7CA39B83DA4CCF273AE07 /* libPods-EVTTabPageScrollView_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D1AC6A5AC2B760768D5BB499 /* libPods-EVTTabPageScrollView_Example.a */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -20,9 +21,9 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
-		7BC84E65029D3CBB5E634983 /* Pods_EVTTabPageScrollView_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B50BC7FDE10D9CC0B21F8CCC /* Pods_EVTTabPageScrollView_Example.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		94EEA342DB81DE2BEAC0BB77 /* Pods_EVTTabPageScrollView_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2002AB07408A87257C994FA /* Pods_EVTTabPageScrollView_Tests.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		D1BDE3751BB2F4270004FBDA /* Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1BDE3741BB2F4270004FBDA /* Screen.storyboard */; settings = {ASSET_TAGS = (); }; };
+		FFF6E4B6D99B9E0F7637E85F /* libPods-EVTTabPageScrollView_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CFED6947E943F8DF1ECCC39 /* libPods-EVTTabPageScrollView_Tests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +38,7 @@
 
 /* Begin PBXFileReference section */
 		0FA7DB31EF921426904BAE90 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		3CFED6947E943F8DF1ECCC39 /* libPods-EVTTabPageScrollView_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EVTTabPageScrollView_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		51BF687F31C9CFEB7D2104AD /* Pods-EVTTabPageScrollView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EVTTabPageScrollView_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EVTTabPageScrollView_Example/Pods-EVTTabPageScrollView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		59C15BF5E747F31373DB0BC6 /* EVTTabPageScrollView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = EVTTabPageScrollView.podspec; path = ../EVTTabPageScrollView.podspec; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* EVTTabPageScrollView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EVTTabPageScrollView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -62,8 +64,8 @@
 		68B7BE0E9E8C510C18FAA086 /* Pods-EVTTabPageScrollView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EVTTabPageScrollView_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EVTTabPageScrollView_Tests/Pods-EVTTabPageScrollView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		8EEF887C3215E0AF73978026 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		A2002AB07408A87257C994FA /* Pods_EVTTabPageScrollView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EVTTabPageScrollView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B50BC7FDE10D9CC0B21F8CCC /* Pods_EVTTabPageScrollView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EVTTabPageScrollView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1AC6A5AC2B760768D5BB499 /* libPods-EVTTabPageScrollView_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EVTTabPageScrollView_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1BDE3741BB2F4270004FBDA /* Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Screen.storyboard; sourceTree = "<group>"; };
 		DC551DFD50D11872ABC417C0 /* Pods-EVTTabPageScrollView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EVTTabPageScrollView_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-EVTTabPageScrollView_Example/Pods-EVTTabPageScrollView_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -75,7 +77,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				7BC84E65029D3CBB5E634983 /* Pods_EVTTabPageScrollView_Example.framework in Frameworks */,
+				54C7CA39B83DA4CCF273AE07 /* libPods-EVTTabPageScrollView_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,7 +88,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				94EEA342DB81DE2BEAC0BB77 /* Pods_EVTTabPageScrollView_Tests.framework in Frameworks */,
+				FFF6E4B6D99B9E0F7637E85F /* libPods-EVTTabPageScrollView_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,8 +134,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				B50BC7FDE10D9CC0B21F8CCC /* Pods_EVTTabPageScrollView_Example.framework */,
-				A2002AB07408A87257C994FA /* Pods_EVTTabPageScrollView_Tests.framework */,
+				D1AC6A5AC2B760768D5BB499 /* libPods-EVTTabPageScrollView_Example.a */,
+				3CFED6947E943F8DF1ECCC39 /* libPods-EVTTabPageScrollView_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -148,6 +150,7 @@
 				6003F5A6195388D20070C39A /* EVTViewController.m */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
+				D1BDE3741BB2F4270004FBDA /* Screen.storyboard */,
 			);
 			name = "Example for EVTTabPageScrollView";
 			path = EVTTabPageScrollView;
@@ -204,7 +207,6 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				246A8400788B5E21810E5F5D /* Embed Pods Frameworks */,
 				51671180721A63B16182BE1B /* Copy Pods Resources */,
 			);
 			buildRules = (
@@ -224,7 +226,6 @@
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
-				7C38AF7D1084BFE9603F10CC /* Embed Pods Frameworks */,
 				72A369155B1C8F8044309B67 /* Copy Pods Resources */,
 			);
 			buildRules = (
@@ -276,6 +277,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1BDE3751BB2F4270004FBDA /* Screen.storyboard in Resources */,
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
@@ -306,21 +308,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		246A8400788B5E21810E5F5D /* Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EVTTabPageScrollView_Example/Pods-EVTTabPageScrollView_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		51671180721A63B16182BE1B /* Copy Pods Resources */ = {
@@ -366,21 +353,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EVTTabPageScrollView_Tests/Pods-EVTTabPageScrollView_Tests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		7C38AF7D1084BFE9603F10CC /* Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EVTTabPageScrollView_Tests/Pods-EVTTabPageScrollView_Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -511,12 +483,14 @@
 			baseConfigurationReference = 51BF687F31C9CFEB7D2104AD /* Pods-EVTTabPageScrollView_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = BrandAsset;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "EVTTabPageScrollView/EVTTabPageScrollView-Prefix.pch";
 				INFOPLIST_FILE = "EVTTabPageScrollView/EVTTabPageScrollView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -526,12 +500,14 @@
 			baseConfigurationReference = DC551DFD50D11872ABC417C0 /* Pods-EVTTabPageScrollView_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = BrandAsset;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "EVTTabPageScrollView/EVTTabPageScrollView-Prefix.pch";
 				INFOPLIST_FILE = "EVTTabPageScrollView/EVTTabPageScrollView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

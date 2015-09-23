@@ -1,6 +1,0 @@
-framework module EVTTabPageScrollView {
-  umbrella header "EVTTabPageScrollView-umbrella.h"
-
-  export *
-  module * { export * }
-}

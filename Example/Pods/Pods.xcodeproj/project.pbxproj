@@ -7,140 +7,232 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0B6030F4395AEAC7B97AD69B951F61FE /* EVTTabPageScrollView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B32E8CB8517457CEDA4E38DA37A30C45 /* EVTTabPageScrollView.bundle */; };
-		1964078FA0FD7F67995681039E74F02C /* Pods-EVTTabPageScrollView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 380E41493F87D20CF0CE066F0A31CF8C /* Pods-EVTTabPageScrollView_Example-dummy.m */; };
-		1AEBD9BE3C2F33C863E953F27824DA3A /* Pods-EVTTabPageScrollView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CE5CEA17627BB073D0C16B24AA0F2BFE /* Pods-EVTTabPageScrollView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5BD30E5141A7A35C2AC6B5717851F896 /* Pods-EVTTabPageScrollView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C499278E2E326F443D5C21C65927339B /* Pods-EVTTabPageScrollView_Tests-dummy.m */; };
-		66F3A77C38C38820A354D6072F7CE6BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63CB2B69C50BB5A748F6F970900470B6 /* Foundation.framework */; };
-		76D864FE97D6E237A3F4185E8DA2521C /* EVTTabPageScrollView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 83E6DDB657DE02BB68F7E0BC0A86D97A /* EVTTabPageScrollView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		804C8DAC4D3C8DC67600B37A02E675EA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63CB2B69C50BB5A748F6F970900470B6 /* Foundation.framework */; };
-		84D2EE41A572CEE8685F37D6D299034C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63CB2B69C50BB5A748F6F970900470B6 /* Foundation.framework */; };
-		B249B93067284155838ACE1DD5C9C81E /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B1FC38AE686F56BEEC62B164D25BF4E /* ReplaceMe.m */; };
-		D1D004A5B6A7F2DFF7651BBB81E3A3C6 /* EVTTabPageScrollView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0347115DE2EE773E5D776B3930C09342 /* EVTTabPageScrollView-dummy.m */; };
-		DE0E529A0BC56BD0EBBDA049F8BEF5E4 /* Pods-EVTTabPageScrollView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 079519B811BF51683131CA4C68A99BA1 /* Pods-EVTTabPageScrollView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		05202A28A5711C3093EBCB5ACE28D2ED /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = 7560289C5A8843E22BE4E3817BC9356C /* MASViewAttribute.h */; };
+		09FF2FA88BB39C712674433835E62F54 /* Masonry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 681719382608E603F33E51EE66A370AE /* Masonry-dummy.m */; };
+		0C6E5C5B3C5A92566465AD123BF10DA9 /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 16CD3F2C3E58404AAF2BA056B6B512E0 /* MASConstraint+Private.h */; };
+		1156D9743A7C48CD8EF02C57F4EA2E68 /* MASLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 62087AA3538F2E856D8C16775B321F15 /* MASLayoutConstraint.h */; };
+		166C9A1F1BC90E151207D755A9D9BC73 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 220100055651F292EE44307D9439A865 /* Foundation.framework */; };
+		1B41285B0AEE6EBFDC3F7A86E9523DF3 /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 50D845819A56EFCD7A94714228E3A7E4 /* MASViewConstraint.h */; };
+		21EDD47BDCF33896242CE80EC5F3F86C /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = F3E8B762E02A01A193B27F0F466E5F78 /* MASViewConstraint.m */; };
+		28EC36AF5EADC1017BFD5BC134C3CE3C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 220100055651F292EE44307D9439A865 /* Foundation.framework */; };
+		3359E9B19241AC113E13955E1BE2B932 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DCA1A8397030F629F4F817DEA6C24D5 /* UIKit.framework */; };
+		371D6D8B496B24A94F2D468A0ACBD51E /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 140BA20E2F32DE98B5E9728C35F79EDA /* MASViewAttribute.m */; };
+		3EE1117088D7E9C156A38215BBFFD0D5 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = E3EE55DC43C9E0FA7FB38334B77F0524 /* MASConstraint.m */; };
+		3F154F5947063A641B5708FFDC8EE0B9 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 250EB3617C497D2AAD32B90C48E48071 /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		47E8E58B3305A47C774C41CA3058BD6E /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = D4DD8FCB3D2CA79B1CE1D9FD1377E01A /* MASConstraint.h */; };
+		484D027B812F89BCFE13FEAB1FEB7CF2 /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = C081B2702448C952CE718AEA7CB2EF83 /* MASUtilities.h */; };
+		49F066DCC401B4C57F69317BDA13DF3F /* Pods-EVTTabPageScrollView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 324C86B6FAFCEEBE12DF4341BBE4142D /* Pods-EVTTabPageScrollView_Example-dummy.m */; };
+		4DB114D120D437670F7479EB165FB919 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 220100055651F292EE44307D9439A865 /* Foundation.framework */; };
+		58D67E933D2761F233CEBC30D8A80ABF /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F1D57B2BDED1ABA119958802D515F49 /* NSArray+MASAdditions.m */; };
+		5A1A1863994EAFB66F45E6A199E91828 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = D52318E8E1DE11BCDB07229590033B1F /* MASConstraintMaker.m */; };
+		5C695D21730908611C837AB41EA7AF89 /* EVTTabPageScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = B6FD59A383A353410CE785FC05E2048D /* EVTTabPageScrollView.h */; };
+		6DA218D4005BCD76B28DAFDC9EBFD25C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 220100055651F292EE44307D9439A865 /* Foundation.framework */; };
+		756CCE18AA23A94336895FB5C2556FBE /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C555E82AFBAE3CFCF03AB01314E0A29 /* MASLayoutConstraint.m */; };
+		8F3A652F5449980509AA837F7587D59A /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = F49F4A4E51999B51CD494B219D0EC52F /* View+MASAdditions.m */; };
+		9DD738889D86B20D6D160FC4FD9592BB /* NSLayoutConstraint+MASDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = A24436536288E61A082B332CE11BCCAF /* NSLayoutConstraint+MASDebugAdditions.h */; };
+		9F1073872F0F8E177171D085F570EED6 /* MASConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C02E02559A5A71C68551305157BDC79 /* MASConstraintMaker.h */; };
+		A3A65900305BB465B3FE02737B40212A /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 4491CF73FBA58713351DFB1E6EDC0EC6 /* ViewController+MASAdditions.h */; };
+		A75C6684B9E4CD9325EC8220EDD08A22 /* EVTTabPageScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D5217A7DBF5AA7BECAD404F55C5338 /* EVTTabPageScrollView.m */; };
+		AEE7148F80FB7DEE7E923898EB16852D /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FACE2B12AF622F875328F97B4F53F26 /* View+MASAdditions.h */; };
+		AF51EFBD8E34A1CC92E31E5816B0F728 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A030F15F01889645A2D4A47E847E36CC /* ViewController+MASAdditions.m */; };
+		B132E4779C7E338E8C3675436F51403F /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EA88D7816983BE832C8CACCA4108268 /* Masonry.h */; };
+		BCE455BFBD8C51CC4C8EFFFAA5B45B86 /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F9B050723F7B9AD7B22474E4B4EC691 /* View+MASShorthandAdditions.h */; };
+		D4BF11D50803164C95705C4600E655D1 /* MASCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 82B110F853CA7C09F46053C1B53BE7F9 /* MASCompositeConstraint.h */; };
+		D9B51BF10857F260BD5F145E16E1313B /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 28DE342FCD07234B3DDFD469653003AA /* MASCompositeConstraint.m */; };
+		E50A001128546550A31A254CD94D737D /* EVTTabPageScrollView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B63433A2E2FBC45530A3CD6FE4A44DC4 /* EVTTabPageScrollView-dummy.m */; };
+		E890D71CF7FF8B4E61A0BA6CA6FA84BC /* Pods-EVTTabPageScrollView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E393220FF99C7B2990E6B9EECE27AA09 /* Pods-EVTTabPageScrollView_Tests-dummy.m */; };
+		E96242D14F927442FBC00CC722C6AFA0 /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = BB6D116431C1ADDAB3A2056D9DA6506C /* NSArray+MASShorthandAdditions.h */; };
+		F815ADE42D57DA637454A3786E6B1B58 /* NSArray+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FF51167546AF8C12D8634836FCE212E /* NSArray+MASAdditions.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		4C7A86336A950ECEB117C4B6D9D7AD3F /* PBXContainerItemProxy */ = {
+		0240B47C2A034014035FACFAB52A086D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = DE059AE22F83DC1096AE3CD9F7D3781B;
-			remoteInfo = EVTTabPageScrollView;
-		};
-		732903A9FD1D75443BAE03E48A2DB5EA /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = DE059AE22F83DC1096AE3CD9F7D3781B;
-			remoteInfo = EVTTabPageScrollView;
-		};
-		9215DDB6C1BD5271F30E95EE09FD2B23 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 8854CB8F425DA6DF7F2DE2F58B2E66D7;
+			remoteGlobalIDString = C3B75E1E410F925C46C7A5B3285DA22D;
 			remoteInfo = "EVTTabPageScrollView-EVTTabPageScrollView";
+		};
+		1DE93F4C5F6CDF75707365473203BB49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4A99142B693BF54B1DCD937D8FE5CFB;
+			remoteInfo = EVTTabPageScrollView;
+		};
+		3B8E629D2B3A8A151DE766A34C95F532 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7F2482EDD6543B05D8AEBF941860066E;
+			remoteInfo = Masonry;
+		};
+		949539E48E13CAC073EF88618F8F8C71 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4A99142B693BF54B1DCD937D8FE5CFB;
+			remoteInfo = EVTTabPageScrollView;
+		};
+		C9F9E1F964D5A06ADAEC6B3374F454D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7F2482EDD6543B05D8AEBF941860066E;
+			remoteInfo = Masonry;
+		};
+		E44A9A7A9011B905C463E3980BBCD875 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7F2482EDD6543B05D8AEBF941860066E;
+			remoteInfo = Masonry;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		02324E2DB725144B090FFE663595DDE0 /* Pods-EVTTabPageScrollView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EVTTabPageScrollView_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		023FDB6AE6177937FC716B8A4703853B /* Pods-EVTTabPageScrollView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EVTTabPageScrollView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		0347115DE2EE773E5D776B3930C09342 /* EVTTabPageScrollView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EVTTabPageScrollView-dummy.m"; sourceTree = "<group>"; };
-		079519B811BF51683131CA4C68A99BA1 /* Pods-EVTTabPageScrollView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EVTTabPageScrollView_Tests-umbrella.h"; sourceTree = "<group>"; };
-		0834C66C9D3E6BBCAA99140D9E369BFB /* Pods-EVTTabPageScrollView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-EVTTabPageScrollView_Tests.modulemap"; sourceTree = "<group>"; };
-		18071F2D1FC5484E0FAAA4E037FF81E5 /* Pods-EVTTabPageScrollView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EVTTabPageScrollView_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		1D8A978176391D3250071D7690A906BD /* EVTTabPageScrollView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EVTTabPageScrollView.xcconfig; sourceTree = "<group>"; };
-		2CD4ADB4271890C81910E88E204BC8D2 /* EVTTabPageScrollView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EVTTabPageScrollView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		380E41493F87D20CF0CE066F0A31CF8C /* Pods-EVTTabPageScrollView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EVTTabPageScrollView_Example-dummy.m"; sourceTree = "<group>"; };
-		3C4A224F2D7E7F6D956C882158ED7477 /* Pods-EVTTabPageScrollView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EVTTabPageScrollView_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		63CB2B69C50BB5A748F6F970900470B6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		701E84A19051D779DA7EE29988206FCA /* Pods-EVTTabPageScrollView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EVTTabPageScrollView_Example-frameworks.sh"; sourceTree = "<group>"; };
-		83E6DDB657DE02BB68F7E0BC0A86D97A /* EVTTabPageScrollView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EVTTabPageScrollView-umbrella.h"; sourceTree = "<group>"; };
-		8B050A18D50B49EE0A47C54B0A37BA00 /* Pods-EVTTabPageScrollView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-EVTTabPageScrollView_Example.modulemap"; sourceTree = "<group>"; };
-		8B1FC38AE686F56BEEC62B164D25BF4E /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
-		8B82DE4232566163D7FAB6580F31F276 /* EVTTabPageScrollView-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "EVTTabPageScrollView-Private.xcconfig"; sourceTree = "<group>"; };
-		8FD186028C6068D15D07242AEFEE833C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		90C06F9A08A6932E8ACE233E97215064 /* Pods-EVTTabPageScrollView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EVTTabPageScrollView_Example-resources.sh"; sourceTree = "<group>"; };
-		97B1623AEFABAA89978995A5837B4CEC /* Pods-EVTTabPageScrollView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EVTTabPageScrollView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		991618B0D3F73001DC80AC837EE68802 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9B7B23A787F2E44FAA69CB13C303F67E /* EVTTabPageScrollView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EVTTabPageScrollView-prefix.pch"; sourceTree = "<group>"; };
-		A6CE38476E0A56A3672DBC714E759FEF /* EVTTabPageScrollView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = EVTTabPageScrollView.modulemap; sourceTree = "<group>"; };
-		B32E8CB8517457CEDA4E38DA37A30C45 /* EVTTabPageScrollView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EVTTabPageScrollView.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		B7C3332A34587ED419835825A4616328 /* Pods_EVTTabPageScrollView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EVTTabPageScrollView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		140BA20E2F32DE98B5E9728C35F79EDA /* MASViewAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewAttribute.m; path = Masonry/MASViewAttribute.m; sourceTree = "<group>"; };
+		16CD3F2C3E58404AAF2BA056B6B512E0 /* MASConstraint+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MASConstraint+Private.h"; path = "Masonry/MASConstraint+Private.h"; sourceTree = "<group>"; };
+		1F80772EBB7DDA3B72F0C04C224660EF /* Pods-EVTTabPageScrollView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EVTTabPageScrollView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		220100055651F292EE44307D9439A865 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		24356E7B7F33AB837EE7595DB8E4EBCD /* Pods-EVTTabPageScrollView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EVTTabPageScrollView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		250EB3617C497D2AAD32B90C48E48071 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+MASDebugAdditions.m"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		28DE342FCD07234B3DDFD469653003AA /* MASCompositeConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASCompositeConstraint.m; path = Masonry/MASCompositeConstraint.m; sourceTree = "<group>"; };
+		2C1EFDB02599835FA1D7DC50899B0F40 /* libMasonry.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMasonry.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C555E82AFBAE3CFCF03AB01314E0A29 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASLayoutConstraint.m; path = Masonry/MASLayoutConstraint.m; sourceTree = "<group>"; };
+		2DCA1A8397030F629F4F817DEA6C24D5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		2FACE2B12AF622F875328F97B4F53F26 /* View+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASAdditions.h"; path = "Masonry/View+MASAdditions.h"; sourceTree = "<group>"; };
+		324C86B6FAFCEEBE12DF4341BBE4142D /* Pods-EVTTabPageScrollView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EVTTabPageScrollView_Example-dummy.m"; sourceTree = "<group>"; };
+		3ABDF1B74E4C2FCB7F0A372BFF79F22A /* EVTTabPageScrollView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EVTTabPageScrollView-prefix.pch"; sourceTree = "<group>"; };
+		4491CF73FBA58713351DFB1E6EDC0EC6 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ViewController+MASAdditions.h"; path = "Masonry/ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		50D845819A56EFCD7A94714228E3A7E4 /* MASViewConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewConstraint.h; path = Masonry/MASViewConstraint.h; sourceTree = "<group>"; };
+		5A43C4F3952259BD676BF35312BE79A3 /* Pods-EVTTabPageScrollView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EVTTabPageScrollView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		5F9B050723F7B9AD7B22474E4B4EC691 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASShorthandAdditions.h"; path = "Masonry/View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		62087AA3538F2E856D8C16775B321F15 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASLayoutConstraint.h; path = Masonry/MASLayoutConstraint.h; sourceTree = "<group>"; };
+		64796074D458C85DDEACC4C70F2E85DC /* libPods-EVTTabPageScrollView_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EVTTabPageScrollView_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6521240357BB2F290BA0C94DF9F722BD /* libEVTTabPageScrollView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libEVTTabPageScrollView.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		681719382608E603F33E51EE66A370AE /* Masonry-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Masonry-dummy.m"; sourceTree = "<group>"; };
+		6E7DE0945F4F8A89321D857675EA2D49 /* Pods-EVTTabPageScrollView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EVTTabPageScrollView_Example-resources.sh"; sourceTree = "<group>"; };
+		6F2BFFD8207DB03526C243910788478C /* EVTTabPageScrollView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EVTTabPageScrollView.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		7560289C5A8843E22BE4E3817BC9356C /* MASViewAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewAttribute.h; path = Masonry/MASViewAttribute.h; sourceTree = "<group>"; };
+		78851D7F409F4930DA8A01562878D04E /* Masonry.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.xcconfig; sourceTree = "<group>"; };
+		82B110F853CA7C09F46053C1B53BE7F9 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASCompositeConstraint.h; path = Masonry/MASCompositeConstraint.h; sourceTree = "<group>"; };
+		86098EECE129E72655A5591D5FBA43C7 /* Pods-EVTTabPageScrollView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EVTTabPageScrollView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		8C02E02559A5A71C68551305157BDC79 /* MASConstraintMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraintMaker.h; path = Masonry/MASConstraintMaker.h; sourceTree = "<group>"; };
+		8C0532A3CD7D1D2F33B8EAF27B0DD63F /* Pods-EVTTabPageScrollView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EVTTabPageScrollView_Tests-resources.sh"; sourceTree = "<group>"; };
+		8EA88D7816983BE832C8CACCA4108268 /* Masonry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Masonry.h; path = Masonry/Masonry.h; sourceTree = "<group>"; };
+		8F1D57B2BDED1ABA119958802D515F49 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MASAdditions.m"; path = "Masonry/NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		92FCAB03082B8D3C7338BCFBA6442AD8 /* EVTTabPageScrollView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EVTTabPageScrollView.xcconfig; sourceTree = "<group>"; };
+		9518123190C0442EDD115AEDC5EDDBE0 /* Masonry-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Masonry-Private.xcconfig"; sourceTree = "<group>"; };
+		95FA55C61F92234C206AE137D8D0747F /* Pods-EVTTabPageScrollView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EVTTabPageScrollView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		9FF51167546AF8C12D8634836FCE212E /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASAdditions.h"; path = "Masonry/NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		A030F15F01889645A2D4A47E847E36CC /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ViewController+MASAdditions.m"; path = "Masonry/ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		A24436536288E61A082B332CE11BCCAF /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+MASDebugAdditions.h"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		B6041FCE4F28F502086CF20308A98E75 /* Pods-EVTTabPageScrollView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EVTTabPageScrollView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B63433A2E2FBC45530A3CD6FE4A44DC4 /* EVTTabPageScrollView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EVTTabPageScrollView-dummy.m"; sourceTree = "<group>"; };
+		B6FD59A383A353410CE785FC05E2048D /* EVTTabPageScrollView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EVTTabPageScrollView.h; sourceTree = "<group>"; };
+		B7521D4F5B29C29B6AEC3A84A5B5FDDB /* libPods-EVTTabPageScrollView_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EVTTabPageScrollView_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		C499278E2E326F443D5C21C65927339B /* Pods-EVTTabPageScrollView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EVTTabPageScrollView_Tests-dummy.m"; sourceTree = "<group>"; };
-		C69D0E1A03B0463108826E858024D7F9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CE5CEA17627BB073D0C16B24AA0F2BFE /* Pods-EVTTabPageScrollView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EVTTabPageScrollView_Example-umbrella.h"; sourceTree = "<group>"; };
-		D02E79A9727A68447F35EF94308F4907 /* Pods_EVTTabPageScrollView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EVTTabPageScrollView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DE98BFE3837DD26E59E591CCB400FF72 /* Pods-EVTTabPageScrollView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EVTTabPageScrollView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		E85BB6C1AF558AE6FA28CDB5A415C42C /* Pods-EVTTabPageScrollView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EVTTabPageScrollView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		EA86728ED72DA960718D413798B44E3B /* Pods-EVTTabPageScrollView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EVTTabPageScrollView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		EBC370E071A680CE529CC2E9231F30D9 /* Pods-EVTTabPageScrollView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EVTTabPageScrollView_Tests-resources.sh"; sourceTree = "<group>"; };
-		F6D8B1E27EE8A0097D4D29D45F61A7EE /* Pods-EVTTabPageScrollView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EVTTabPageScrollView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		BB6D116431C1ADDAB3A2056D9DA6506C /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASShorthandAdditions.h"; path = "Masonry/NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		C081B2702448C952CE718AEA7CB2EF83 /* MASUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASUtilities.h; path = Masonry/MASUtilities.h; sourceTree = "<group>"; };
+		D4DD8FCB3D2CA79B1CE1D9FD1377E01A /* MASConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraint.h; path = Masonry/MASConstraint.h; sourceTree = "<group>"; };
+		D52318E8E1DE11BCDB07229590033B1F /* MASConstraintMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraintMaker.m; path = Masonry/MASConstraintMaker.m; sourceTree = "<group>"; };
+		D7D5217A7DBF5AA7BECAD404F55C5338 /* EVTTabPageScrollView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = EVTTabPageScrollView.m; sourceTree = "<group>"; };
+		D9C9BAAE0D378863C67D3926849AEADD /* Masonry-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-prefix.pch"; sourceTree = "<group>"; };
+		DEB1D9D7003977E3C5F5450CFAF21C0B /* EVTTabPageScrollView-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "EVTTabPageScrollView-Private.xcconfig"; sourceTree = "<group>"; };
+		E393220FF99C7B2990E6B9EECE27AA09 /* Pods-EVTTabPageScrollView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EVTTabPageScrollView_Tests-dummy.m"; sourceTree = "<group>"; };
+		E3EE55DC43C9E0FA7FB38334B77F0524 /* MASConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraint.m; path = Masonry/MASConstraint.m; sourceTree = "<group>"; };
+		E898140FD1287C5ACA49A9BB45428517 /* Pods-EVTTabPageScrollView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EVTTabPageScrollView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		F3E8B762E02A01A193B27F0F466E5F78 /* MASViewConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewConstraint.m; path = Masonry/MASViewConstraint.m; sourceTree = "<group>"; };
+		F49F4A4E51999B51CD494B219D0EC52F /* View+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "View+MASAdditions.m"; path = "Masonry/View+MASAdditions.m"; sourceTree = "<group>"; };
+		F7782E2B4CDB9DC32591C166287C54C9 /* Pods-EVTTabPageScrollView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EVTTabPageScrollView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2E347DAD87A3531FC7CBF9A74D4F565F /* Frameworks */ = {
+		5F795E7FF6DB2835FBA22D2BED3C02C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DB114D120D437670F7479EB165FB919 /* Foundation.framework in Frameworks */,
+				3359E9B19241AC113E13955E1BE2B932 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6434632452F741002DA52EBF3638DB11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DA218D4005BCD76B28DAFDC9EBFD25C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		713F11B03FDC7D6DC15DB3AEB2866660 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28EC36AF5EADC1017BFD5BC134C3CE3C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7599F910B027D57BA7051C5FAEC45B9B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		71AD84F8CFBD239B985D949DC09AB061 /* Frameworks */ = {
+		F313EA61FC3C2219A098E0B7E42B215B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				804C8DAC4D3C8DC67600B37A02E675EA /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B69D316EC53C6A16DA3670BD51F79B71 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				66F3A77C38C38820A354D6072F7CE6BC /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E4DA11420608896076D9B280DBB3588A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				84D2EE41A572CEE8685F37D6D299034C /* Foundation.framework in Frameworks */,
+				166C9A1F1BC90E151207D755A9D9BC73 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		320583A24BC28F8DC73654299A64DCAE /* Targets Support Files */ = {
+		01C17A56ED413A3B7F1343C05709E912 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				8238A22EE4AF2E8EAE86782C5004743F /* Pods-EVTTabPageScrollView_Example */,
-				968DE0032ED835F5055B7066B64D0091 /* Pods-EVTTabPageScrollView_Tests */,
+				78851D7F409F4930DA8A01562878D04E /* Masonry.xcconfig */,
+				9518123190C0442EDD115AEDC5EDDBE0 /* Masonry-Private.xcconfig */,
+				681719382608E603F33E51EE66A370AE /* Masonry-dummy.m */,
+				D9C9BAAE0D378863C67D3926849AEADD /* Masonry-prefix.pch */,
 			);
-			name = "Targets Support Files";
+			name = "Support Files";
+			path = "../Target Support Files/Masonry";
 			sourceTree = "<group>";
 		};
-		53F661C0CA7190D2CF05023FB33D61E4 /* iOS */ = {
+		2F4B8DDF41464E55C95C53EF36B32514 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				63CB2B69C50BB5A748F6F970900470B6 /* Foundation.framework */,
+				B6FD59A383A353410CE785FC05E2048D /* EVTTabPageScrollView.h */,
+				D7D5217A7DBF5AA7BECAD404F55C5338 /* EVTTabPageScrollView.m */,
 			);
-			name = iOS;
+			path = Classes;
 			sourceTree = "<group>";
 		};
-		5C310FF5CC72376AA9D69559291328B4 /* EVTTabPageScrollView */ = {
+		31E2BBC570D50EA965AAF48727334E97 /* Pods-EVTTabPageScrollView_Example */ = {
 			isa = PBXGroup;
 			children = (
-				99FFBCABE448C490907B6F101223416C /* Pod */,
-				8CBC1B797803745D6B64394A3B02125B /* Support Files */,
+				B6041FCE4F28F502086CF20308A98E75 /* Pods-EVTTabPageScrollView_Example-acknowledgements.markdown */,
+				24356E7B7F33AB837EE7595DB8E4EBCD /* Pods-EVTTabPageScrollView_Example-acknowledgements.plist */,
+				324C86B6FAFCEEBE12DF4341BBE4142D /* Pods-EVTTabPageScrollView_Example-dummy.m */,
+				6E7DE0945F4F8A89321D857675EA2D49 /* Pods-EVTTabPageScrollView_Example-resources.sh */,
+				F7782E2B4CDB9DC32591C166287C54C9 /* Pods-EVTTabPageScrollView_Example.debug.xcconfig */,
+				5A43C4F3952259BD676BF35312BE79A3 /* Pods-EVTTabPageScrollView_Example.release.xcconfig */,
 			);
-			name = EVTTabPageScrollView;
-			path = ../..;
+			name = "Pods-EVTTabPageScrollView_Example";
+			path = "Target Support Files/Pods-EVTTabPageScrollView_Example";
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D0FB9306D21AF23A056944AE037CBFFF /* iOS */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -148,179 +240,232 @@
 			children = (
 				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
 				D6C6F9A8BAD6B5CA92B02A224A365BC8 /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				E9B49E9D4F6BC02AA78DCF86BCED2145 /* Pods */,
 				CCA510CFBEA2D207524CDA0D73C3B561 /* Products */,
-				320583A24BC28F8DC73654299A64DCAE /* Targets Support Files */,
+				D72D98A4AF799BB072DBF07ABBCFCE0A /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		8238A22EE4AF2E8EAE86782C5004743F /* Pods-EVTTabPageScrollView_Example */ = {
+		7DE9623619309BD49D2E9779388C01F0 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				8FD186028C6068D15D07242AEFEE833C /* Info.plist */,
-				8B050A18D50B49EE0A47C54B0A37BA00 /* Pods-EVTTabPageScrollView_Example.modulemap */,
-				EA86728ED72DA960718D413798B44E3B /* Pods-EVTTabPageScrollView_Example-acknowledgements.markdown */,
-				97B1623AEFABAA89978995A5837B4CEC /* Pods-EVTTabPageScrollView_Example-acknowledgements.plist */,
-				380E41493F87D20CF0CE066F0A31CF8C /* Pods-EVTTabPageScrollView_Example-dummy.m */,
-				701E84A19051D779DA7EE29988206FCA /* Pods-EVTTabPageScrollView_Example-frameworks.sh */,
-				90C06F9A08A6932E8ACE233E97215064 /* Pods-EVTTabPageScrollView_Example-resources.sh */,
-				CE5CEA17627BB073D0C16B24AA0F2BFE /* Pods-EVTTabPageScrollView_Example-umbrella.h */,
-				02324E2DB725144B090FFE663595DDE0 /* Pods-EVTTabPageScrollView_Example.debug.xcconfig */,
-				F6D8B1E27EE8A0097D4D29D45F61A7EE /* Pods-EVTTabPageScrollView_Example.release.xcconfig */,
-			);
-			name = "Pods-EVTTabPageScrollView_Example";
-			path = "Target Support Files/Pods-EVTTabPageScrollView_Example";
-			sourceTree = "<group>";
-		};
-		8CBC1B797803745D6B64394A3B02125B /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				A6CE38476E0A56A3672DBC714E759FEF /* EVTTabPageScrollView.modulemap */,
-				1D8A978176391D3250071D7690A906BD /* EVTTabPageScrollView.xcconfig */,
-				8B82DE4232566163D7FAB6580F31F276 /* EVTTabPageScrollView-Private.xcconfig */,
-				0347115DE2EE773E5D776B3930C09342 /* EVTTabPageScrollView-dummy.m */,
-				9B7B23A787F2E44FAA69CB13C303F67E /* EVTTabPageScrollView-prefix.pch */,
-				83E6DDB657DE02BB68F7E0BC0A86D97A /* EVTTabPageScrollView-umbrella.h */,
-				C69D0E1A03B0463108826E858024D7F9 /* Info.plist */,
+				92FCAB03082B8D3C7338BCFBA6442AD8 /* EVTTabPageScrollView.xcconfig */,
+				DEB1D9D7003977E3C5F5450CFAF21C0B /* EVTTabPageScrollView-Private.xcconfig */,
+				B63433A2E2FBC45530A3CD6FE4A44DC4 /* EVTTabPageScrollView-dummy.m */,
+				3ABDF1B74E4C2FCB7F0A372BFF79F22A /* EVTTabPageScrollView-prefix.pch */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/EVTTabPageScrollView";
 			sourceTree = "<group>";
 		};
-		968DE0032ED835F5055B7066B64D0091 /* Pods-EVTTabPageScrollView_Tests */ = {
+		A5431781429552164743B5B0A3C6A5F4 /* Pods-EVTTabPageScrollView_Tests */ = {
 			isa = PBXGroup;
 			children = (
-				991618B0D3F73001DC80AC837EE68802 /* Info.plist */,
-				0834C66C9D3E6BBCAA99140D9E369BFB /* Pods-EVTTabPageScrollView_Tests.modulemap */,
-				023FDB6AE6177937FC716B8A4703853B /* Pods-EVTTabPageScrollView_Tests-acknowledgements.markdown */,
-				E85BB6C1AF558AE6FA28CDB5A415C42C /* Pods-EVTTabPageScrollView_Tests-acknowledgements.plist */,
-				C499278E2E326F443D5C21C65927339B /* Pods-EVTTabPageScrollView_Tests-dummy.m */,
-				3C4A224F2D7E7F6D956C882158ED7477 /* Pods-EVTTabPageScrollView_Tests-frameworks.sh */,
-				EBC370E071A680CE529CC2E9231F30D9 /* Pods-EVTTabPageScrollView_Tests-resources.sh */,
-				079519B811BF51683131CA4C68A99BA1 /* Pods-EVTTabPageScrollView_Tests-umbrella.h */,
-				DE98BFE3837DD26E59E591CCB400FF72 /* Pods-EVTTabPageScrollView_Tests.debug.xcconfig */,
-				18071F2D1FC5484E0FAAA4E037FF81E5 /* Pods-EVTTabPageScrollView_Tests.release.xcconfig */,
+				1F80772EBB7DDA3B72F0C04C224660EF /* Pods-EVTTabPageScrollView_Tests-acknowledgements.markdown */,
+				E898140FD1287C5ACA49A9BB45428517 /* Pods-EVTTabPageScrollView_Tests-acknowledgements.plist */,
+				E393220FF99C7B2990E6B9EECE27AA09 /* Pods-EVTTabPageScrollView_Tests-dummy.m */,
+				8C0532A3CD7D1D2F33B8EAF27B0DD63F /* Pods-EVTTabPageScrollView_Tests-resources.sh */,
+				95FA55C61F92234C206AE137D8D0747F /* Pods-EVTTabPageScrollView_Tests.debug.xcconfig */,
+				86098EECE129E72655A5591D5FBA43C7 /* Pods-EVTTabPageScrollView_Tests.release.xcconfig */,
 			);
 			name = "Pods-EVTTabPageScrollView_Tests";
 			path = "Target Support Files/Pods-EVTTabPageScrollView_Tests";
 			sourceTree = "<group>";
 		};
-		99FFBCABE448C490907B6F101223416C /* Pod */ = {
+		B5A0F4F12088CDD490318F699FD26448 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				D4BC70215E8495BC15B0D6B77E365A5F /* Classes */,
+				2F4B8DDF41464E55C95C53EF36B32514 /* Classes */,
 			);
 			path = Pod;
-			sourceTree = "<group>";
-		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				53F661C0CA7190D2CF05023FB33D61E4 /* iOS */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B32E8CB8517457CEDA4E38DA37A30C45 /* EVTTabPageScrollView.bundle */,
-				2CD4ADB4271890C81910E88E204BC8D2 /* EVTTabPageScrollView.framework */,
-				B7C3332A34587ED419835825A4616328 /* Pods_EVTTabPageScrollView_Example.framework */,
-				D02E79A9727A68447F35EF94308F4907 /* Pods_EVTTabPageScrollView_Tests.framework */,
+				6F2BFFD8207DB03526C243910788478C /* EVTTabPageScrollView.bundle */,
+				6521240357BB2F290BA0C94DF9F722BD /* libEVTTabPageScrollView.a */,
+				2C1EFDB02599835FA1D7DC50899B0F40 /* libMasonry.a */,
+				64796074D458C85DDEACC4C70F2E85DC /* libPods-EVTTabPageScrollView_Example.a */,
+				B7521D4F5B29C29B6AEC3A84A5B5FDDB /* libPods-EVTTabPageScrollView_Tests.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D4BC70215E8495BC15B0D6B77E365A5F /* Classes */ = {
+		D0FB9306D21AF23A056944AE037CBFFF /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				8B1FC38AE686F56BEEC62B164D25BF4E /* ReplaceMe.m */,
+				220100055651F292EE44307D9439A865 /* Foundation.framework */,
+				2DCA1A8397030F629F4F817DEA6C24D5 /* UIKit.framework */,
 			);
-			path = Classes;
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		D6C6F9A8BAD6B5CA92B02A224A365BC8 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				5C310FF5CC72376AA9D69559291328B4 /* EVTTabPageScrollView */,
+				F566A0E019B73AC19D22FC2812F5BC00 /* EVTTabPageScrollView */,
 			);
 			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		D72D98A4AF799BB072DBF07ABBCFCE0A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				31E2BBC570D50EA965AAF48727334E97 /* Pods-EVTTabPageScrollView_Example */,
+				A5431781429552164743B5B0A3C6A5F4 /* Pods-EVTTabPageScrollView_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		DFD2AAAFDCD99284B18C808D688F977B /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				82B110F853CA7C09F46053C1B53BE7F9 /* MASCompositeConstraint.h */,
+				28DE342FCD07234B3DDFD469653003AA /* MASCompositeConstraint.m */,
+				D4DD8FCB3D2CA79B1CE1D9FD1377E01A /* MASConstraint.h */,
+				E3EE55DC43C9E0FA7FB38334B77F0524 /* MASConstraint.m */,
+				16CD3F2C3E58404AAF2BA056B6B512E0 /* MASConstraint+Private.h */,
+				8C02E02559A5A71C68551305157BDC79 /* MASConstraintMaker.h */,
+				D52318E8E1DE11BCDB07229590033B1F /* MASConstraintMaker.m */,
+				62087AA3538F2E856D8C16775B321F15 /* MASLayoutConstraint.h */,
+				2C555E82AFBAE3CFCF03AB01314E0A29 /* MASLayoutConstraint.m */,
+				C081B2702448C952CE718AEA7CB2EF83 /* MASUtilities.h */,
+				7560289C5A8843E22BE4E3817BC9356C /* MASViewAttribute.h */,
+				140BA20E2F32DE98B5E9728C35F79EDA /* MASViewAttribute.m */,
+				50D845819A56EFCD7A94714228E3A7E4 /* MASViewConstraint.h */,
+				F3E8B762E02A01A193B27F0F466E5F78 /* MASViewConstraint.m */,
+				8EA88D7816983BE832C8CACCA4108268 /* Masonry.h */,
+				9FF51167546AF8C12D8634836FCE212E /* NSArray+MASAdditions.h */,
+				8F1D57B2BDED1ABA119958802D515F49 /* NSArray+MASAdditions.m */,
+				BB6D116431C1ADDAB3A2056D9DA6506C /* NSArray+MASShorthandAdditions.h */,
+				A24436536288E61A082B332CE11BCCAF /* NSLayoutConstraint+MASDebugAdditions.h */,
+				250EB3617C497D2AAD32B90C48E48071 /* NSLayoutConstraint+MASDebugAdditions.m */,
+				2FACE2B12AF622F875328F97B4F53F26 /* View+MASAdditions.h */,
+				F49F4A4E51999B51CD494B219D0EC52F /* View+MASAdditions.m */,
+				5F9B050723F7B9AD7B22474E4B4EC691 /* View+MASShorthandAdditions.h */,
+				4491CF73FBA58713351DFB1E6EDC0EC6 /* ViewController+MASAdditions.h */,
+				A030F15F01889645A2D4A47E847E36CC /* ViewController+MASAdditions.m */,
+				01C17A56ED413A3B7F1343C05709E912 /* Support Files */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+		E9B49E9D4F6BC02AA78DCF86BCED2145 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DFD2AAAFDCD99284B18C808D688F977B /* Masonry */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F566A0E019B73AC19D22FC2812F5BC00 /* EVTTabPageScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				B5A0F4F12088CDD490318F699FD26448 /* Pod */,
+				7DE9623619309BD49D2E9779388C01F0 /* Support Files */,
+			);
+			name = EVTTabPageScrollView;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		3093B124EB7DDAD6B182429F933F068D /* Headers */ = {
+		840670063A6841F8535AA9918BE6FBC5 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				76D864FE97D6E237A3F4185E8DA2521C /* EVTTabPageScrollView-umbrella.h in Headers */,
+				5C695D21730908611C837AB41EA7AF89 /* EVTTabPageScrollView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4B25202A2C8E0BEA28E6AC312817A8CA /* Headers */ = {
+		CA9599350048B776C7FDD493724AFA4A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE0E529A0BC56BD0EBBDA049F8BEF5E4 /* Pods-EVTTabPageScrollView_Tests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		79A45C1F72C4BD521A23804E04C94AEF /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1AEBD9BE3C2F33C863E953F27824DA3A /* Pods-EVTTabPageScrollView_Example-umbrella.h in Headers */,
+				D4BF11D50803164C95705C4600E655D1 /* MASCompositeConstraint.h in Headers */,
+				0C6E5C5B3C5A92566465AD123BF10DA9 /* MASConstraint+Private.h in Headers */,
+				47E8E58B3305A47C774C41CA3058BD6E /* MASConstraint.h in Headers */,
+				9F1073872F0F8E177171D085F570EED6 /* MASConstraintMaker.h in Headers */,
+				1156D9743A7C48CD8EF02C57F4EA2E68 /* MASLayoutConstraint.h in Headers */,
+				484D027B812F89BCFE13FEAB1FEB7CF2 /* MASUtilities.h in Headers */,
+				05202A28A5711C3093EBCB5ACE28D2ED /* MASViewAttribute.h in Headers */,
+				1B41285B0AEE6EBFDC3F7A86E9523DF3 /* MASViewConstraint.h in Headers */,
+				B132E4779C7E338E8C3675436F51403F /* Masonry.h in Headers */,
+				F815ADE42D57DA637454A3786E6B1B58 /* NSArray+MASAdditions.h in Headers */,
+				E96242D14F927442FBC00CC722C6AFA0 /* NSArray+MASShorthandAdditions.h in Headers */,
+				9DD738889D86B20D6D160FC4FD9592BB /* NSLayoutConstraint+MASDebugAdditions.h in Headers */,
+				AEE7148F80FB7DEE7E923898EB16852D /* View+MASAdditions.h in Headers */,
+				BCE455BFBD8C51CC4C8EFFFAA5B45B86 /* View+MASShorthandAdditions.h in Headers */,
+				A3A65900305BB465B3FE02737B40212A /* ViewController+MASAdditions.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		0B8116459E40192F58F38B94C5B16345 /* Pods-EVTTabPageScrollView_Example */ = {
+		7F2482EDD6543B05D8AEBF941860066E /* Masonry */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2C7C8E9C843D93DDC909884717D20B07 /* Build configuration list for PBXNativeTarget "Pods-EVTTabPageScrollView_Example" */;
+			buildConfigurationList = 3621F613EFCF2B7929CC09B672B9E9FC /* Build configuration list for PBXNativeTarget "Masonry" */;
 			buildPhases = (
-				DBE0BA46C406F0E6F4BAF889DD49DFA9 /* Sources */,
-				71AD84F8CFBD239B985D949DC09AB061 /* Frameworks */,
-				79A45C1F72C4BD521A23804E04C94AEF /* Headers */,
+				4071C00D7E7C28DD5FC9CCD3F8FADB59 /* Sources */,
+				5F795E7FF6DB2835FBA22D2BED3C02C2 /* Frameworks */,
+				CA9599350048B776C7FDD493724AFA4A /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				DDED31441259A4C9BB3789B90F111073 /* PBXTargetDependency */,
+			);
+			name = Masonry;
+			productName = Masonry;
+			productReference = 2C1EFDB02599835FA1D7DC50899B0F40 /* libMasonry.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		9A9A26F219CECC45F3D702439FB141D1 /* Pods-EVTTabPageScrollView_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FFC9E36F0D7D1125676C7A12345C24A /* Build configuration list for PBXNativeTarget "Pods-EVTTabPageScrollView_Example" */;
+			buildPhases = (
+				48B4A01017431935506B153EDC0E6842 /* Sources */,
+				6434632452F741002DA52EBF3638DB11 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				565063EE729C80F162721DDCC51FAB63 /* PBXTargetDependency */,
+				258B2008E674EDB9B706F3D5114BBAF5 /* PBXTargetDependency */,
 			);
 			name = "Pods-EVTTabPageScrollView_Example";
 			productName = "Pods-EVTTabPageScrollView_Example";
-			productReference = B7C3332A34587ED419835825A4616328 /* Pods_EVTTabPageScrollView_Example.framework */;
-			productType = "com.apple.product-type.framework";
+			productReference = 64796074D458C85DDEACC4C70F2E85DC /* libPods-EVTTabPageScrollView_Example.a */;
+			productType = "com.apple.product-type.library.static";
 		};
-		68933ECF30DD8BD3AD5CB829BF857A2E /* Pods-EVTTabPageScrollView_Tests */ = {
+		A4BB92AF551803CE01192A782FD09FDE /* Pods-EVTTabPageScrollView_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8DC3410E47D8C649F440C9B11D984261 /* Build configuration list for PBXNativeTarget "Pods-EVTTabPageScrollView_Tests" */;
+			buildConfigurationList = 0CBF81EEC3A908E429D6B9AE07305C46 /* Build configuration list for PBXNativeTarget "Pods-EVTTabPageScrollView_Tests" */;
 			buildPhases = (
-				4793233840801ECDAD4943959B839978 /* Sources */,
-				E4DA11420608896076D9B280DBB3588A /* Frameworks */,
-				4B25202A2C8E0BEA28E6AC312817A8CA /* Headers */,
+				C745747FBC119ED1D1C6DE4907C201FB /* Sources */,
+				713F11B03FDC7D6DC15DB3AEB2866660 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				93549532B1CE89EDBF469477F0C3A60C /* PBXTargetDependency */,
+				00BF7D7F2D79953F903FCCF0801D8ED8 /* PBXTargetDependency */,
+				12716FCC83C3CA568A9D440D7727F6DC /* PBXTargetDependency */,
 			);
 			name = "Pods-EVTTabPageScrollView_Tests";
 			productName = "Pods-EVTTabPageScrollView_Tests";
-			productReference = D02E79A9727A68447F35EF94308F4907 /* Pods_EVTTabPageScrollView_Tests.framework */;
-			productType = "com.apple.product-type.framework";
+			productReference = B7521D4F5B29C29B6AEC3A84A5B5FDDB /* libPods-EVTTabPageScrollView_Tests.a */;
+			productType = "com.apple.product-type.library.static";
 		};
-		8854CB8F425DA6DF7F2DE2F58B2E66D7 /* EVTTabPageScrollView-EVTTabPageScrollView */ = {
+		C3B75E1E410F925C46C7A5B3285DA22D /* EVTTabPageScrollView-EVTTabPageScrollView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A85A3014B36E11C18109F8DC56D9CB8E /* Build configuration list for PBXNativeTarget "EVTTabPageScrollView-EVTTabPageScrollView" */;
+			buildConfigurationList = 1A06A2952BC167477C4D751CD43610E3 /* Build configuration list for PBXNativeTarget "EVTTabPageScrollView-EVTTabPageScrollView" */;
 			buildPhases = (
-				DFD088ABE884D93E5715D016840864D6 /* Sources */,
-				2E347DAD87A3531FC7CBF9A74D4F565F /* Frameworks */,
-				9A29E0A9FF2AF10A2620DD59175C680F /* Resources */,
+				56CA3E788E96615143226BE2F6087F95 /* Sources */,
+				7599F910B027D57BA7051C5FAEC45B9B /* Frameworks */,
+				CCA10193E16FDC098AD27C35E2D5A034 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -328,27 +473,27 @@
 			);
 			name = "EVTTabPageScrollView-EVTTabPageScrollView";
 			productName = "EVTTabPageScrollView-EVTTabPageScrollView";
-			productReference = B32E8CB8517457CEDA4E38DA37A30C45 /* EVTTabPageScrollView.bundle */;
+			productReference = 6F2BFFD8207DB03526C243910788478C /* EVTTabPageScrollView.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
-		DE059AE22F83DC1096AE3CD9F7D3781B /* EVTTabPageScrollView */ = {
+		C4A99142B693BF54B1DCD937D8FE5CFB /* EVTTabPageScrollView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8932C225715DC47FBCAE12D527CB4D32 /* Build configuration list for PBXNativeTarget "EVTTabPageScrollView" */;
+			buildConfigurationList = 62A84FAB73892592C870DA97354B4696 /* Build configuration list for PBXNativeTarget "EVTTabPageScrollView" */;
 			buildPhases = (
-				4B895BA89AC4555965C762753513ACF4 /* Sources */,
-				B69D316EC53C6A16DA3670BD51F79B71 /* Frameworks */,
-				C7ACA89333FCBA4BD7AABDA96CF478A7 /* Resources */,
-				3093B124EB7DDAD6B182429F933F068D /* Headers */,
+				6DCAC22D26CEEBE46483BCC842D45444 /* Sources */,
+				F313EA61FC3C2219A098E0B7E42B215B /* Frameworks */,
+				840670063A6841F8535AA9918BE6FBC5 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				FD9131EE151B440E33441C2B7ADCB558 /* PBXTargetDependency */,
+				A05C4A9BA6D9C4C9C09F633AD9F1D6C7 /* PBXTargetDependency */,
+				474A265505FB1790BC03AC12B21A3C56 /* PBXTargetDependency */,
 			);
 			name = EVTTabPageScrollView;
 			productName = EVTTabPageScrollView;
-			productReference = 2CD4ADB4271890C81910E88E204BC8D2 /* EVTTabPageScrollView.framework */;
-			productType = "com.apple.product-type.framework";
+			productReference = 6521240357BB2F290BA0C94DF9F722BD /* libEVTTabPageScrollView.a */;
+			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
@@ -371,85 +516,114 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DE059AE22F83DC1096AE3CD9F7D3781B /* EVTTabPageScrollView */,
-				8854CB8F425DA6DF7F2DE2F58B2E66D7 /* EVTTabPageScrollView-EVTTabPageScrollView */,
-				0B8116459E40192F58F38B94C5B16345 /* Pods-EVTTabPageScrollView_Example */,
-				68933ECF30DD8BD3AD5CB829BF857A2E /* Pods-EVTTabPageScrollView_Tests */,
+				C4A99142B693BF54B1DCD937D8FE5CFB /* EVTTabPageScrollView */,
+				C3B75E1E410F925C46C7A5B3285DA22D /* EVTTabPageScrollView-EVTTabPageScrollView */,
+				7F2482EDD6543B05D8AEBF941860066E /* Masonry */,
+				9A9A26F219CECC45F3D702439FB141D1 /* Pods-EVTTabPageScrollView_Example */,
+				A4BB92AF551803CE01192A782FD09FDE /* Pods-EVTTabPageScrollView_Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		9A29E0A9FF2AF10A2620DD59175C680F /* Resources */ = {
+		CCA10193E16FDC098AD27C35E2D5A034 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C7ACA89333FCBA4BD7AABDA96CF478A7 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0B6030F4395AEAC7B97AD69B951F61FE /* EVTTabPageScrollView.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		4793233840801ECDAD4943959B839978 /* Sources */ = {
+		4071C00D7E7C28DD5FC9CCD3F8FADB59 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5BD30E5141A7A35C2AC6B5717851F896 /* Pods-EVTTabPageScrollView_Tests-dummy.m in Sources */,
+				D9B51BF10857F260BD5F145E16E1313B /* MASCompositeConstraint.m in Sources */,
+				3EE1117088D7E9C156A38215BBFFD0D5 /* MASConstraint.m in Sources */,
+				5A1A1863994EAFB66F45E6A199E91828 /* MASConstraintMaker.m in Sources */,
+				756CCE18AA23A94336895FB5C2556FBE /* MASLayoutConstraint.m in Sources */,
+				371D6D8B496B24A94F2D468A0ACBD51E /* MASViewAttribute.m in Sources */,
+				21EDD47BDCF33896242CE80EC5F3F86C /* MASViewConstraint.m in Sources */,
+				09FF2FA88BB39C712674433835E62F54 /* Masonry-dummy.m in Sources */,
+				58D67E933D2761F233CEBC30D8A80ABF /* NSArray+MASAdditions.m in Sources */,
+				3F154F5947063A641B5708FFDC8EE0B9 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				8F3A652F5449980509AA837F7587D59A /* View+MASAdditions.m in Sources */,
+				AF51EFBD8E34A1CC92E31E5816B0F728 /* ViewController+MASAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4B895BA89AC4555965C762753513ACF4 /* Sources */ = {
+		48B4A01017431935506B153EDC0E6842 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D1D004A5B6A7F2DFF7651BBB81E3A3C6 /* EVTTabPageScrollView-dummy.m in Sources */,
-				B249B93067284155838ACE1DD5C9C81E /* ReplaceMe.m in Sources */,
+				49F066DCC401B4C57F69317BDA13DF3F /* Pods-EVTTabPageScrollView_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DBE0BA46C406F0E6F4BAF889DD49DFA9 /* Sources */ = {
+		56CA3E788E96615143226BE2F6087F95 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1964078FA0FD7F67995681039E74F02C /* Pods-EVTTabPageScrollView_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DFD088ABE884D93E5715D016840864D6 /* Sources */ = {
+		6DCAC22D26CEEBE46483BCC842D45444 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E50A001128546550A31A254CD94D737D /* EVTTabPageScrollView-dummy.m in Sources */,
+				A75C6684B9E4CD9325EC8220EDD08A22 /* EVTTabPageScrollView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C745747FBC119ED1D1C6DE4907C201FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E890D71CF7FF8B4E61A0BA6CA6FA84BC /* Pods-EVTTabPageScrollView_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		93549532B1CE89EDBF469477F0C3A60C /* PBXTargetDependency */ = {
+		00BF7D7F2D79953F903FCCF0801D8ED8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = EVTTabPageScrollView;
-			target = DE059AE22F83DC1096AE3CD9F7D3781B /* EVTTabPageScrollView */;
-			targetProxy = 4C7A86336A950ECEB117C4B6D9D7AD3F /* PBXContainerItemProxy */;
+			target = C4A99142B693BF54B1DCD937D8FE5CFB /* EVTTabPageScrollView */;
+			targetProxy = 949539E48E13CAC073EF88618F8F8C71 /* PBXContainerItemProxy */;
 		};
-		DDED31441259A4C9BB3789B90F111073 /* PBXTargetDependency */ = {
+		12716FCC83C3CA568A9D440D7727F6DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Masonry;
+			target = 7F2482EDD6543B05D8AEBF941860066E /* Masonry */;
+			targetProxy = C9F9E1F964D5A06ADAEC6B3374F454D9 /* PBXContainerItemProxy */;
+		};
+		258B2008E674EDB9B706F3D5114BBAF5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Masonry;
+			target = 7F2482EDD6543B05D8AEBF941860066E /* Masonry */;
+			targetProxy = 3B8E629D2B3A8A151DE766A34C95F532 /* PBXContainerItemProxy */;
+		};
+		474A265505FB1790BC03AC12B21A3C56 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Masonry;
+			target = 7F2482EDD6543B05D8AEBF941860066E /* Masonry */;
+			targetProxy = E44A9A7A9011B905C463E3980BBCD875 /* PBXContainerItemProxy */;
+		};
+		565063EE729C80F162721DDCC51FAB63 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = EVTTabPageScrollView;
-			target = DE059AE22F83DC1096AE3CD9F7D3781B /* EVTTabPageScrollView */;
-			targetProxy = 732903A9FD1D75443BAE03E48A2DB5EA /* PBXContainerItemProxy */;
+			target = C4A99142B693BF54B1DCD937D8FE5CFB /* EVTTabPageScrollView */;
+			targetProxy = 1DE93F4C5F6CDF75707365473203BB49 /* PBXContainerItemProxy */;
 		};
-		FD9131EE151B440E33441C2B7ADCB558 /* PBXTargetDependency */ = {
+		A05C4A9BA6D9C4C9C09F633AD9F1D6C7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "EVTTabPageScrollView-EVTTabPageScrollView";
-			target = 8854CB8F425DA6DF7F2DE2F58B2E66D7 /* EVTTabPageScrollView-EVTTabPageScrollView */;
-			targetProxy = 9215DDB6C1BD5271F30E95EE09FD2B23 /* PBXContainerItemProxy */;
+			target = C3B75E1E410F925C46C7A5B3285DA22D /* EVTTabPageScrollView-EVTTabPageScrollView */;
+			targetProxy = 0240B47C2A034014035FACFAB52A086D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -527,104 +701,41 @@
 			};
 			name = Debug;
 		};
-		29CBABAE33295F57B58BDA70A763F700 /* Debug */ = {
+		18739E523994697B4196B7ED02FEDDBF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8B82DE4232566163D7FAB6580F31F276 /* EVTTabPageScrollView-Private.xcconfig */;
+			baseConfigurationReference = 9518123190C0442EDD115AEDC5EDDBE0 /* Masonry-Private.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 0.1.0;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 0.1.0;
-				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/EVTTabPageScrollView/EVTTabPageScrollView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/EVTTabPageScrollView/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/EVTTabPageScrollView/EVTTabPageScrollView.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = EVTTabPageScrollView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		355163FF2402562F4F31C03FACBEB6FE /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DE98BFE3837DD26E59E591CCB400FF72 /* Pods-EVTTabPageScrollView_Tests.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-EVTTabPageScrollView_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-EVTTabPageScrollView_Tests/Pods-EVTTabPageScrollView_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_EVTTabPageScrollView_Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		3B8B2D25916D9C2B5773A09CE7034DAB /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8B82DE4232566163D7FAB6580F31F276 /* EVTTabPageScrollView-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 0.1.0;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 0.1.0;
-				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/EVTTabPageScrollView/EVTTabPageScrollView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/EVTTabPageScrollView/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/EVTTabPageScrollView/EVTTabPageScrollView.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = EVTTabPageScrollView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		4D41B1254E9C87DCD8600CC802139458 /* Debug */ = {
+		29328B43CD1FBB4FCD2DD8C62ED01488 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8B82DE4232566163D7FAB6580F31F276 /* EVTTabPageScrollView-Private.xcconfig */;
+			baseConfigurationReference = DEB1D9D7003977E3C5F5450CFAF21C0B /* EVTTabPageScrollView-Private.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = EVTTabPageScrollView;
+				GCC_PREFIX_HEADER = "Target Support Files/EVTTabPageScrollView/EVTTabPageScrollView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
 			};
-			name = Debug;
+			name = Release;
 		};
-		6A1E6DC591EBE27F9A2A3CEA24FA83A5 /* Release */ = {
+		2B1253E4C7866FD9529663947F2FC9CE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8B82DE4232566163D7FAB6580F31F276 /* EVTTabPageScrollView-Private.xcconfig */;
+			baseConfigurationReference = DEB1D9D7003977E3C5F5450CFAF21C0B /* EVTTabPageScrollView-Private.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				PRODUCT_NAME = EVTTabPageScrollView;
@@ -634,101 +745,131 @@
 			};
 			name = Release;
 		};
-		DC5B8C48A97BE2F485209D8F87D2C2C0 /* Debug */ = {
+		32A9B57314868AE6C69D84696315D827 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 02324E2DB725144B090FFE663595DDE0 /* Pods-EVTTabPageScrollView_Example.debug.xcconfig */;
+			baseConfigurationReference = DEB1D9D7003977E3C5F5450CFAF21C0B /* EVTTabPageScrollView-Private.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-EVTTabPageScrollView_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				PRODUCT_NAME = EVTTabPageScrollView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		63002196763FC92CA557C2C0F25D9202 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86098EECE129E72655A5591D5FBA43C7 /* Pods-EVTTabPageScrollView_Tests.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-EVTTabPageScrollView_Example/Pods-EVTTabPageScrollView_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		8F6C4BB32F4717B2CB913AD5B161AE16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95FA55C61F92234C206AE137D8D0747F /* Pods-EVTTabPageScrollView_Tests.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_EVTTabPageScrollView_Example;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		DCFEF7B5347B0F2B405E11B990C736F6 /* Release */ = {
+		9F0A78B6114AEEE19694A491E5CBD9A0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 18071F2D1FC5484E0FAAA4E037FF81E5 /* Pods-EVTTabPageScrollView_Tests.release.xcconfig */;
+			baseConfigurationReference = 9518123190C0442EDD115AEDC5EDDBE0 /* Masonry-Private.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-EVTTabPageScrollView_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-EVTTabPageScrollView_Tests/Pods-EVTTabPageScrollView_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		AB5782060AF3FF7C1814029F34459BB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A43C4F3952259BD676BF35312BE79A3 /* Pods-EVTTabPageScrollView_Example.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_EVTTabPageScrollView_Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		EA7D097D2DC7F9F43D39424C529AC8AC /* Release */ = {
+		C2AE5363CF20B1191ED3089A6B493921 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F6D8B1E27EE8A0097D4D29D45F61A7EE /* Pods-EVTTabPageScrollView_Example.release.xcconfig */;
+			baseConfigurationReference = DEB1D9D7003977E3C5F5450CFAF21C0B /* EVTTabPageScrollView-Private.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-EVTTabPageScrollView_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				GCC_PREFIX_HEADER = "Target Support Files/EVTTabPageScrollView/EVTTabPageScrollView-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-EVTTabPageScrollView_Example/Pods-EVTTabPageScrollView_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		D08164CCC34B5CF5F8DD56360EFBB664 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7782E2B4CDB9DC32591C166287C54C9 /* Pods-EVTTabPageScrollView_Example.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_EVTTabPageScrollView_Example;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2C7C8E9C843D93DDC909884717D20B07 /* Build configuration list for PBXNativeTarget "Pods-EVTTabPageScrollView_Example" */ = {
+		0CBF81EEC3A908E429D6B9AE07305C46 /* Build configuration list for PBXNativeTarget "Pods-EVTTabPageScrollView_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DC5B8C48A97BE2F485209D8F87D2C2C0 /* Debug */,
-				EA7D097D2DC7F9F43D39424C529AC8AC /* Release */,
+				8F6C4BB32F4717B2CB913AD5B161AE16 /* Debug */,
+				63002196763FC92CA557C2C0F25D9202 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A06A2952BC167477C4D751CD43610E3 /* Build configuration list for PBXNativeTarget "EVTTabPageScrollView-EVTTabPageScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32A9B57314868AE6C69D84696315D827 /* Debug */,
+				2B1253E4C7866FD9529663947F2FC9CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -742,29 +883,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8932C225715DC47FBCAE12D527CB4D32 /* Build configuration list for PBXNativeTarget "EVTTabPageScrollView" */ = {
+		3621F613EFCF2B7929CC09B672B9E9FC /* Build configuration list for PBXNativeTarget "Masonry" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				29CBABAE33295F57B58BDA70A763F700 /* Debug */,
-				3B8B2D25916D9C2B5773A09CE7034DAB /* Release */,
+				9F0A78B6114AEEE19694A491E5CBD9A0 /* Debug */,
+				18739E523994697B4196B7ED02FEDDBF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8DC3410E47D8C649F440C9B11D984261 /* Build configuration list for PBXNativeTarget "Pods-EVTTabPageScrollView_Tests" */ = {
+		3FFC9E36F0D7D1125676C7A12345C24A /* Build configuration list for PBXNativeTarget "Pods-EVTTabPageScrollView_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				355163FF2402562F4F31C03FACBEB6FE /* Debug */,
-				DCFEF7B5347B0F2B405E11B990C736F6 /* Release */,
+				D08164CCC34B5CF5F8DD56360EFBB664 /* Debug */,
+				AB5782060AF3FF7C1814029F34459BB1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A85A3014B36E11C18109F8DC56D9CB8E /* Build configuration list for PBXNativeTarget "EVTTabPageScrollView-EVTTabPageScrollView" */ = {
+		62A84FAB73892592C870DA97354B4696 /* Build configuration list for PBXNativeTarget "EVTTabPageScrollView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4D41B1254E9C87DCD8600CC802139458 /* Debug */,
-				6A1E6DC591EBE27F9A2A3CEA24FA83A5 /* Release */,
+				C2AE5363CF20B1191ED3089A6B493921 /* Debug */,
+				29328B43CD1FBB4FCD2DD8C62ED01488 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

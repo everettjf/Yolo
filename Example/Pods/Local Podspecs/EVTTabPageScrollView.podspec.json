@@ -3,13 +3,13 @@
   "version": "0.1.0",
   "summary": "A short description of EVTTabPageScrollView.",
   "description": "",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/EVTTabPageScrollView",
+  "homepage": "https://github.com/everettjf/EVTTabPageScrollView",
   "license": "MIT",
   "authors": {
     "everettjf": "everettjf@live.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/EVTTabPageScrollView.git",
+    "git": "https://github.com/everettjf/EVTTabPageScrollView.git",
     "tag": "0.1.0"
   },
   "platforms": {
@@ -20,6 +20,11 @@
   "resource_bundles": {
     "EVTTabPageScrollView": [
       "Pod/Assets/*.png"
+    ]
+  },
+  "dependencies": {
+    "Masonry": [
+      "~> 0.6"
     ]
   }
 }

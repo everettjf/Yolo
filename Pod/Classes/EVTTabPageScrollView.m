@@ -25,6 +25,9 @@
 }
 @end
 
+@implementation EVTTabPageScrollViewParameter
+@end
+
 
 @interface EVTTabPageScrollView () <UIScrollViewDelegate>
 @property (nonatomic,strong) UIScrollView *contentView;
@@ -93,6 +96,11 @@
         [button setTitleColor:UIColorFromRGB(0x565656) forState:UIControlStateNormal];
         [button setTitleColor:UIColorFromRGB(0x09bb07) forState:UIControlStateSelected];
         button.titleLabel.font = [UIFont systemFontOfSize:14];
+        
+        if(_delegate && [_delegate respondsToSelector:@selector(EVTTabPageScrollView:decorateTabButton:)]){
+            [_delegate EVTTabPageScrollView:self decorateTabButton:button];
+        }
+        
         [button addTarget:self action:@selector(tabButtonTouchup:) forControlEvents:UIControlEventTouchUpInside];
         button.tag = idx;
         
@@ -212,6 +220,11 @@
     [UIView animateWithDuration:0.3f animations:^{
         [self layoutIfNeeded];
     }];
+    
+    if(_delegate && [_delegate respondsToSelector:@selector(EVTTabPageScrollView:didPageItemSelected:withTabIndex:)]){
+        [_delegate EVTTabPageScrollView:self didPageItemSelected:_pageItems[tabIndex] withTabIndex:tabIndex];
+    }
 }
+
 
 @end

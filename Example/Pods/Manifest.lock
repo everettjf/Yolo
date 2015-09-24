@@ -12,7 +12,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  EVTTabPageScrollView: 48cb4ea63e39a12c2e8471efc4efd0ecbd799215
+  EVTTabPageScrollView: 9b074283a60810291d660a1ad2804c7e9f8cfdd5
   Masonry: ff105a956abcd19a618b2028b121cb638d7a8e2f
 
 COCOAPODS: 0.38.2

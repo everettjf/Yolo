@@ -1,8 +1,8 @@
 {
   "name": "EVTTabPageScrollView",
   "version": "0.1.0",
-  "summary": "A short description of EVTTabPageScrollView.",
-  "description": "",
+  "summary": "A tab page scroll view with indicator and same width tab buttons.",
+  "description": "Just a simple tab page , writing with UIScrollView and UIButton, it has indicator below the button.\nAnd also , it provide some parameters you could modify the default color theme.",
   "homepage": "https://github.com/everettjf/EVTTabPageScrollView",
   "license": "MIT",
   "authors": {

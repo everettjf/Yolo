@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = "EVTTabPageScrollView"
   s.version          = "0.1.0"
-  s.summary          = "A simple tab page view."
+  s.summary          = "A tab page scroll view with indicator and same width tab buttons."
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,7 +17,8 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!  
   s.description      = <<-DESC
-A simple tab page view with indicator.
+Just a simple tab page , writing with UIScrollView and UIButton, it has indicator below the button.
+And also , it provide some parameters you could modify the default color theme.
                        DESC
 
   s.homepage         = "https://github.com/everettjf/EVTTabPageScrollView"

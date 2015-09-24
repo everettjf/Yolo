@@ -34,11 +34,11 @@
     view5.backgroundColor = [UIColor colorWithRed:arc4random()%255/255.0 green:arc4random()%255/255.0 blue:arc4random()%255/255.0 alpha:1.0f];
     
     NSArray *pageItems = @[
-                           [[EVTTabPageScrollViewPageItem alloc]initWithTabName:@"头条" andTabView:view1],
-                           [[EVTTabPageScrollViewPageItem alloc]initWithTabName:@"国内" andTabView:view2],
-                           [[EVTTabPageScrollViewPageItem alloc]initWithTabName:@"国际" andTabView:view3],
-                           [[EVTTabPageScrollViewPageItem alloc]initWithTabName:@"科技" andTabView:view4],
-                           [[EVTTabPageScrollViewPageItem alloc]initWithTabName:@"生活" andTabView:view5],
+                           [[EVTTabPageScrollViewPageItem alloc]initWithTabName:@"News" andTabView:view1],
+                           [[EVTTabPageScrollViewPageItem alloc]initWithTabName:@"Tech" andTabView:view2],
+                           [[EVTTabPageScrollViewPageItem alloc]initWithTabName:@"Life" andTabView:view3],
+                           [[EVTTabPageScrollViewPageItem alloc]initWithTabName:@"Job" andTabView:view4],
+                           [[EVTTabPageScrollViewPageItem alloc]initWithTabName:@"Fun" andTabView:view5],
                            ];
     _pageScroll = [[EVTTabPageScrollView alloc]initWithPageItems:pageItems];
     

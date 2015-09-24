@@ -7,7 +7,7 @@
 //
 
 #import "EVTTabPageScrollView.h"
-#import <Masonry.h>
+#import "Masonry.h"
 
 #define SCREEN_WIDTH                    ([UIScreen mainScreen].bounds.size.width)
 #define SCREEN_HEIGHT                   ([UIScreen mainScreen].bounds.size.height)
@@ -26,6 +26,20 @@
 @end
 
 @implementation EVTTabPageScrollViewParameter
+
+- (instancetype)init
+{
+    self = [super init];
+    if (self) {
+        _tabHeight = 40;
+        _indicatorColor = UIColorFromRGB(0x09bb07);
+        _indicatorHeight = 2;
+        _separatorColor = UIColorFromRGB(0xc7c7c7);
+        _separatorHeight = 1;
+        _indicatorWidthFactor = 2.0/3.0;
+    }
+    return self;
+}
 @end
 
 
@@ -36,19 +50,32 @@
 @property (nonatomic,strong) UIView *indicatorView;
 @property (nonatomic,strong) UIView *separatorView;
 
+@property (nonatomic,strong) EVTTabPageScrollViewParameter *parameter;
+
 @end
 
 @implementation EVTTabPageScrollView
 
-- (instancetype)initWithPageItems:(NSArray *)pageItems{
+
+- (instancetype)initWithPageItems:(NSArray *)pageItems withParameter:(EVTTabPageScrollViewParameter *)parameter{
     self = [super init];
-    if (self) {
+    if(self){
+        if(parameter == nil){
+            _parameter = [EVTTabPageScrollViewParameter new];
+        }else{
+            self.parameter = parameter;
+        }
+        
         _tabButtons = [NSMutableArray new];
         _pageItems = pageItems;
         
         [self loadUI];
     }
     return self;
+}
+
+- (instancetype)initWithPageItems:(NSArray *)pageItems{
+    return [self initWithPageItems:pageItems withParameter:nil];
 }
 
 -(void)loadUI{
@@ -93,8 +120,8 @@
         [_tabButtons addObject:button];
         
         [button setTitle:item.tabName forState:UIControlStateNormal];
-        [button setTitleColor:UIColorFromRGB(0x565656) forState:UIControlStateNormal];
-        [button setTitleColor:UIColorFromRGB(0x09bb07) forState:UIControlStateSelected];
+        [button setTitleColor:UIColorFromRGB(0x555555) forState:UIControlStateNormal];
+        [button setTitleColor:UIColorFromRGB(0x10bb10) forState:UIControlStateSelected];
         button.titleLabel.font = [UIFont systemFontOfSize:14];
         
         if(_delegate && [_delegate respondsToSelector:@selector(EVTTabPageScrollView:decorateTabButton:)]){
@@ -106,7 +133,7 @@
         
         [button mas_makeConstraints:^(MASConstraintMaker *make){
             make.top.equalTo(tabView.mas_top);
-            make.height.equalTo(@(40 - 3)); // 1 for line , 2 for indicator
+            make.height.equalTo(@(_parameter.tabHeight - _parameter.indicatorHeight - _parameter.separatorHeight)); // 1 for line , 2 for indicator
             
             if(idx == 0){
                 // first item
@@ -130,11 +157,11 @@
     // Load separator
     _separatorView = [UIView new];
     [tabView addSubview:_separatorView];
-    _separatorView.backgroundColor = UIColorFromRGB(0xc7c7c7);
+    _separatorView.backgroundColor = _parameter.separatorColor;
     [_separatorView mas_makeConstraints:^(MASConstraintMaker *make){
         make.left.equalTo(tabView.mas_left);
         make.right.equalTo(tabView.mas_right);
-        make.height.equalTo(@1);
+        make.height.equalTo(@(_parameter.separatorHeight));
         make.bottom.equalTo(tabView.mas_bottom);
     }];
     
@@ -144,11 +171,11 @@
     
     _indicatorView = [UIView new];
     [tabView addSubview:_indicatorView];
-    _indicatorView.backgroundColor = UIColorFromRGB(0x09bb07);
+    _indicatorView.backgroundColor = _parameter.indicatorColor;
     [_indicatorView mas_makeConstraints:^(MASConstraintMaker *make){
-        make.width.equalTo(@(SCREEN_WIDTH / _pageItems.count / 3 * 2));
+        make.width.equalTo(@(SCREEN_WIDTH / _pageItems.count * _parameter.indicatorWidthFactor));
         make.bottom.equalTo(_separatorView.mas_top);
-        make.height.equalTo(@2);
+        make.height.equalTo(@(_parameter.indicatorHeight));
         make.centerX.equalTo(firstButton.mas_centerX);
     }];
     

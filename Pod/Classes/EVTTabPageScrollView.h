@@ -32,10 +32,15 @@
 @end
 
 @interface EVTTabPageScrollViewParameter : NSObject
+@property (nonatomic,assign) NSInteger tabHeight;
+
 @property (nonatomic,strong) UIColor *indicatorColor;
-//todo
+@property (nonatomic,assign) NSInteger indicatorHeight;
 
+@property (nonatomic,strong) UIColor *separatorColor;
+@property (nonatomic,assign) NSInteger separatorHeight;
 
+@property (nonatomic,assign) CGFloat indicatorWidthFactor;
 @end
 
 @interface EVTTabPageScrollView : UIView
@@ -50,5 +55,6 @@
  *  @return new tab page scroll view
  */
 -(instancetype)initWithPageItems:(NSArray *)pageItems;
+-(instancetype)initWithPageItems:(NSArray *)pageItems withParameter:(EVTTabPageScrollViewParameter*)parameter;
 
 @end

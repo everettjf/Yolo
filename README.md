@@ -3,7 +3,7 @@
 Simple Tab Page
 
 
-[hello](http://everettjf.github.io/images/extern/EVTTabPageScrollView.gif)
+![demo](http://everettjf.github.io/images/extern/EVTTabPageScrollView.gif)
 
 
 ## Usage

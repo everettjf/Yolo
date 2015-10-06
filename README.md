@@ -2,9 +2,7 @@
 
 Simple Tab Page
 
-
 ![demo](http://everettjf.github.io/images/extern/EVTTabPageScrollView.gif)
-
 
 ## Usage
 

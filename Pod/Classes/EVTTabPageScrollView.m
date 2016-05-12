@@ -58,6 +58,18 @@
 
 
 - (instancetype)initWithPageItems:(NSArray *)pageItems withParameter:(EVTTabPageScrollViewParameter *)parameter{
+    return [self initWithPageItems:pageItems withParameter:parameter withDelegate:nil];
+}
+
+- (instancetype)initWithPageItems:(NSArray *)pageItems{
+    return [self initWithPageItems:pageItems withParameter:nil];
+}
+
+- (instancetype)initWithPageItems:(NSArray *)pageItems withDelegate:(id<EVTTabPageScrollViewDelegate>)deleate {
+    return [self initWithPageItems:pageItems withParameter:nil withDelegate:deleate];
+}
+
+-(instancetype)initWithPageItems:(NSArray *)pageItems withParameter:(EVTTabPageScrollViewParameter*)parameter withDelegate:(id<EVTTabPageScrollViewDelegate>)deleate {
     self = [super init];
     if(self){
         if(parameter == nil){
@@ -69,13 +81,11 @@
         _tabButtons = [NSMutableArray new];
         _pageItems = pageItems;
         
+        self.delegate = deleate;
+        
         [self loadUI];
     }
     return self;
-}
-
-- (instancetype)initWithPageItems:(NSArray *)pageItems{
-    return [self initWithPageItems:pageItems withParameter:nil];
 }
 
 -(void)loadUI{

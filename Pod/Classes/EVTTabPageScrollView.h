@@ -45,7 +45,7 @@
 
 @interface EVTTabPageScrollView : UIView
 
-@property (nonatomic, strong) id<EVTTabPageScrollViewDelegate> delegate;
+@property (nonatomic, weak) id<EVTTabPageScrollViewDelegate> delegate;
 
 /**
  *  init with Array of EVTTabPageScrollViewPageItem

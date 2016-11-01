@@ -45,7 +45,7 @@
 
 @interface EVTTabPageScrollView : UIView
 
-@property (nonatomic,weak) id<EVTTabPageScrollViewDelegate> delegate;
+@property (nonatomic, weak) id<EVTTabPageScrollViewDelegate> delegate;
 
 /**
  *  init with Array of EVTTabPageScrollViewPageItem
@@ -56,5 +56,8 @@
  */
 -(instancetype)initWithPageItems:(NSArray *)pageItems;
 -(instancetype)initWithPageItems:(NSArray *)pageItems withParameter:(EVTTabPageScrollViewParameter*)parameter;
+
+-(instancetype)initWithPageItems:(NSArray *)pageItems withDelegate:(id<EVTTabPageScrollViewDelegate>)deleate;
+-(instancetype)initWithPageItems:(NSArray *)pageItems withParameter:(EVTTabPageScrollViewParameter*)parameter withDelegate:(id<EVTTabPageScrollViewDelegate>)deleate;
 
 @end

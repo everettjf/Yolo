@@ -1,0 +1,134 @@
+// !!! BINARY PROPERTY LIST WARNING !!!
+//
+// The pretty-printed property list below has been created
+// from a binary version on disk and should not be saved as
+// the ASCII format is a subset of the binary representation!
+//
+(
+	{	DefaultBuildSettings = {
+			CONTENTS_FOLDER_PATH = "$(WRAPPER_NAME)";
+			DOCUMENTATION_FOLDER_PATH = "$(LOCALIZED_RESOURCES_FOLDER_PATH)/Documentation";
+			EXECUTABLES_FOLDER_PATH = "$(CONTENTS_FOLDER_PATH)/Executables";
+			EXECUTABLE_FOLDER_PATH = "$(CONTENTS_FOLDER_PATH)";
+			EXECUTABLE_NAME = "$(EXECUTABLE_PREFIX)$(PRODUCT_NAME)$(EXECUTABLE_VARIANT_SUFFIX)$(EXECUTABLE_SUFFIX)";
+			EXECUTABLE_PATH = "$(EXECUTABLE_FOLDER_PATH)/$(EXECUTABLE_NAME)";
+			EXECUTABLE_PREFIX = "";
+			EXECUTABLE_SUFFIX = "";
+			FRAMEWORKS_FOLDER_PATH = "$(CONTENTS_FOLDER_PATH)/Frameworks";
+			INFOPLIST_PATH = "$(CONTENTS_FOLDER_PATH)/Info.plist";
+			INFOSTRINGS_PATH = "$(LOCALIZED_RESOURCES_FOLDER_PATH)/InfoPlist.strings";
+			JAVA_FOLDER_PATH = "$(UNLOCALIZED_RESOURCES_FOLDER_PATH)/Java";
+			LOCALIZED_RESOURCES_FOLDER_PATH = "$(UNLOCALIZED_RESOURCES_FOLDER_PATH)/$(DEVELOPMENT_LANGUAGE).lproj";
+			PBDEVELOPMENTPLIST_PATH = "$(CONTENTS_FOLDER_PATH)/pbdevelopment.plist";
+			PKGINFO_PATH = "$(CONTENTS_FOLDER_PATH)/PkgInfo";
+			PLUGINS_FOLDER_PATH = "$(CONTENTS_FOLDER_PATH)/PlugIns";
+			PRIVATE_HEADERS_FOLDER_PATH = "$(CONTENTS_FOLDER_PATH)/PrivateHeaders";
+			PUBLIC_HEADERS_FOLDER_PATH = "$(CONTENTS_FOLDER_PATH)/Headers";
+			SCRIPTS_FOLDER_PATH = "$(UNLOCALIZED_RESOURCES_FOLDER_PATH)/Scripts";
+			SHALLOW_BUNDLE = "YES";
+			SHARED_FRAMEWORKS_FOLDER_PATH = "$(CONTENTS_FOLDER_PATH)/SharedFrameworks";
+			SHARED_SUPPORT_FOLDER_PATH = "$(CONTENTS_FOLDER_PATH)/SharedSupport";
+			UNLOCALIZED_RESOURCES_FOLDER_PATH = "$(CONTENTS_FOLDER_PATH)";
+			VERSIONPLIST_PATH = "$(CONTENTS_FOLDER_PATH)/version.plist";
+			WRAPPER_NAME = "$(WRAPPER_PREFIX)$(PRODUCT_NAME)$(WRAPPER_SUFFIX)";
+			WRAPPER_PREFIX = "";
+			WRAPPER_SUFFIX = ".bundle";
+		};
+		Description = "Wrapper";
+		Identifier = "com.apple.package-type.wrapper";
+		Name = "Wrapper";
+		ProductReference = {
+			FileType = "wrapper.cfbundle";
+			IsLaunchable = "NO";
+			Name = "$(WRAPPER_NAME)";
+		};
+		Type = "PackageType";
+	},
+	{	BasedOn = "com.apple.package-type.wrapper";
+		DefaultBuildSettings = { GENERATE_PKGINFO_FILE = "YES"; };
+		Description = "Application Wrapper";
+		Identifier = "com.apple.package-type.wrapper.application";
+		Name = "Application Wrapper";
+		ProductReference = {
+			FileType = "wrapper.application";
+			IsLaunchable = "YES";
+			Name = "$(WRAPPER_NAME)";
+		};
+		Type = "PackageType";
+	},
+	{	BasedOn = "com.apple.package-type.wrapper";
+		DefaultBuildSettings = { WRAPPER_SUFFIX = "xctest"; };
+		Description = "Unit Test Bundle";
+		Identifier = "com.apple.package-type.bundle.unit-test";
+		Name = "Unit Test Bundle";
+		ProductReference = {
+			FileType = "wrapper.cfbundle";
+			IsLaunchable = "NO";
+			Name = "$(WRAPPER_NAME)";
+		};
+		Type = "PackageType";
+	},
+	{	BasedOn = "com.apple.package-type.wrapper";
+		DefaultBuildSettings = {
+			CONTENTS_FOLDER_PATH = "$(WRAPPER_NAME)/Contents";
+			DOCUMENTATION_FOLDER_PATH = "$(LOCALIZED_RESOURCES_FOLDER_PATH)";
+			EXECUTABLES_FOLDER_PATH = "$(CONTENTS_FOLDER_PATH)";
+			EXECUTABLE_FOLDER_PATH = "$(CONTENTS_FOLDER_PATH)";
+			FRAMEWORKS_FOLDER_PATH = "$(CONTENTS_FOLDER_PATH)";
+			INFOPLIST_PATH = "$(WRAPPER_NAME)/ContentInfo.plist";
+			INFOSTRINGS_PATH = "$(LOCALIZED_RESOURCES_FOLDER_PATH)/ContentInfo.strings";
+			JAVA_FOLDER_PATH = "$(UNLOCALIZED_RESOURCES_FOLDER_PATH)";
+			LOCALIZED_RESOURCES_FOLDER_PATH = "$(UNLOCALIZED_RESOURCES_FOLDER_PATH)/$(DEVELOPMENT_LANGUAGE).lproj";
+			PLUGINS_FOLDER_PATH = "$(CONTENTS_FOLDER_PATH)";
+			PRIVATE_HEADERS_FOLDER_PATH = "$(CONTENTS_FOLDER_PATH)";
+			PUBLIC_HEADERS_FOLDER_PATH = "$(CONTENTS_FOLDER_PATH)";
+			SCRIPTS_FOLDER_PATH = "$(UNLOCALIZED_RESOURCES_FOLDER_PATH)";
+			SHARED_FRAMEWORKS_FOLDER_PATH = "$(CONTENTS_FOLDER_PATH)";
+			SHARED_SUPPORT_FOLDER_PATH = "$(CONTENTS_FOLDER_PATH)";
+			UNLOCALIZED_RESOURCES_FOLDER_PATH = "$(CONTENTS_FOLDER_PATH)";
+			WRAPPER_SUFFIX = "";
+		};
+		Description = "In-App Purchase Content";
+		Identifier = "com.apple.package-type.in-app-purchase-content";
+		Name = "In-App Purchase Content";
+		ProductReference = {
+			FileType = "folder";
+			IsLaunchable = "NO";
+			Name = "$(WRAPPER_NAME)";
+		};
+		Type = "PackageType";
+	},
+	{	DefaultBuildSettings = {
+			EXECUTABLE_NAME = "$(EXECUTABLE_PREFIX)$(PRODUCT_NAME)$(EXECUTABLE_VARIANT_SUFFIX)$(EXECUTABLE_SUFFIX)";
+			EXECUTABLE_PATH = "$(EXECUTABLE_NAME)";
+			EXECUTABLE_PREFIX = "lib";
+			EXECUTABLE_SUFFIX = ".a";
+		};
+		Description = "Mach-O static library";
+		Identifier = "com.apple.package-type.static-library";
+		Name = "Mach-O Static Library";
+		ProductReference = {
+			FileType = "archive.ar";
+			IsLaunchable = "NO";
+			Name = "$(EXECUTABLE_NAME)";
+		};
+		Type = "PackageType";
+	},
+    // Mach-O dynamic library
+    {   Type = PackageType;
+        Identifier = com.apple.package-type.mach-o-dylib;
+        Name = "Mach-O Dynamic Library";
+        Description = "Mach-O dynamic library";
+        DefaultBuildSettings = {
+            EXECUTABLE_PREFIX = "";
+            EXECUTABLE_SUFFIX = "";
+            EXECUTABLE_NAME = "$(EXECUTABLE_PREFIX)$(PRODUCT_NAME)$(EXECUTABLE_VARIANT_SUFFIX)$(EXECUTABLE_SUFFIX)";
+            EXECUTABLE_PATH = "$(EXECUTABLE_NAME)";
+        };
+        ProductReference = {
+            FileType = compiled.mach-o.dylib;
+            Name = "$(EXECUTABLE_NAME)";
+            IsLaunchable = NO;
+        };
+    },
+)

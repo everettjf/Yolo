@@ -1,0 +1,171 @@
+// !!! BINARY PROPERTY LIST WARNING !!!
+//
+// The pretty-printed property list below has been created
+// from a binary version on disk and should not be saved as
+// the ASCII format is a subset of the binary representation!
+//
+(
+	{	Class = "PBXBundleProductType";
+		DefaultBuildProperties = {
+			FRAMEWORK_FLAG_PREFIX = "-framework";
+			FULL_PRODUCT_NAME = "$(WRAPPER_NAME)";
+			GCC_INLINES_ARE_PRIVATE_EXTERN = "YES";
+			LIBRARY_FLAG_NOSPACE = "YES";
+			LIBRARY_FLAG_PREFIX = "-l";
+			MACH_O_TYPE = "mh_bundle";
+			STRIP_STYLE = "non-global";
+			WRAPPER_EXTENSION = "bundle";
+			WRAPPER_NAME = "$(WRAPPER_PREFIX)$(PRODUCT_NAME)$(WRAPPER_SUFFIX)";
+			WRAPPER_PREFIX = "";
+			WRAPPER_SUFFIX = ".$(WRAPPER_EXTENSION)";
+		};
+		DefaultTargetName = "Bundle";
+		Description = "Generic bundle";
+		HasInfoPlist = "YES";
+		HasInfoPlistStrings = "YES";
+		IconNamePrefix = "TargetPlugin";
+		Identifier = "com.apple.product-type.bundle";
+		IsWrapper = "YES";
+		Name = "Bundle";
+		PackageTypes = ( "com.apple.package-type.wrapper" );
+		Type = "ProductType";
+	},
+	{	BasedOn = "com.apple.product-type.bundle";
+		Class = "PBXApplicationProductType";
+		DefaultBuildProperties = {
+			CODE_SIGNING_ALLOWED = "YES";
+			ENTITLEMENTS_ALLOWED = "YES";
+			GCC_INLINES_ARE_PRIVATE_EXTERN = "YES";
+			GCC_SYMBOLS_PRIVATE_EXTERN = "YES";
+			INSTALL_PATH = "$(LOCAL_APPS_DIR)";
+			MACH_O_TYPE = "mh_execute";
+			PROVISIONING_PROFILE_REQUIRED = "YES";
+			RESOURCE_RULES_REQUIRED = "YES";
+			STRIP_STYLE = "all";
+			WRAPPER_EXTENSION = "app";
+			WRAPPER_SUFFIX = ".$(WRAPPER_EXTENSION)";
+		};
+		DefaultTargetName = "Application";
+		Description = "Application";
+		IconNamePrefix = "TargetApp";
+		Identifier = "com.apple.product-type.application";
+		Name = "Application";
+		PackageTypes = ( "com.apple.package-type.wrapper.application" );
+		SupportsZeroLink = "YES";
+		Type = "ProductType";
+		Validation = {
+			AdditionalValidationClass = "XCiPhoneOSPlatformPlugin";
+			Checks = { "!(  $(VALIDATE_PRODUCT) == NO && $(CODE_SIGN_IDENTITY) == 'iPhone Distribution'  )" = "The Validate Built Product build setting was not enabled when building for Distribution."; };
+			ValidationToolSpec = "com.apple.build-tools.platform.validate";
+		};
+	},
+	{	BasedOn = "com.apple.product-type.bundle";
+		Class = "PBXBundleProductType";
+		DefaultBuildProperties = {
+			FRAMEWORK_SEARCH_PATHS = "$(inherited) $(DEVELOPER_FRAMEWORKS_DIR)";
+			OTHER_LDFLAGS = "$(inherited) -framework XCTest";
+			WRAPPER_EXTENSION = "xctest";
+		};
+		Description = "Unit Test Bundle";
+		Identifier = "com.apple.product-type.bundle.unit-test";
+		Name = "Unit Test Bundle";
+		PackageTypes = ( "com.apple.package-type.bundle.unit-test" );
+		Type = "ProductType";
+	},
+	{	Class = "PBXBundleProductType";
+		DefaultBuildProperties = { FULL_PRODUCT_NAME = "$(WRAPPER_NAME)"; };
+		Description = "In-App Purchase Content";
+		HasInfoPlist = "YES";
+		HasInfoPlistStrings = "NO";
+		Identifier = "com.apple.product-type.in-app-purchase-content";
+		IsWrapper = "YES";
+		Name = "In-App Purchase Content";
+		PackageTypes = ( "com.apple.package-type.in-app-purchase-content" );
+		Type = "ProductType";
+	},
+	{	AlwaysPerformSeparateStrip = "YES";
+		Class = "PBXStaticLibraryProductType";
+		DefaultBuildProperties = {
+			CODE_SIGNING_ALLOWED = "NO";
+			EXECUTABLE_EXTENSION = "a";
+			EXECUTABLE_PREFIX = "lib";
+			EXECUTABLE_SUFFIX = ".$(EXECUTABLE_EXTENSION)";
+			FRAMEWORK_FLAG_PREFIX = "-framework";
+			FULL_PRODUCT_NAME = "$(EXECUTABLE_NAME)";
+			GCC_ENABLE_SYMBOL_SEPARATION = "NO";
+			INSTALL_PATH = "/usr/local/lib";
+			LIBRARY_FLAG_NOSPACE = "YES";
+			LIBRARY_FLAG_PREFIX = "-l";
+			MACH_O_TYPE = "staticlib";
+			PRIVATE_HEADERS_FOLDER_PATH = "/usr/local/include";
+			PUBLIC_HEADERS_FOLDER_PATH = "/usr/local/include";
+			REZ_EXECUTABLE = "YES";
+			SEPARATE_STRIP = "YES";
+			STRIP_STYLE = "debugging";
+		};
+		DefaultTargetName = "Static Library";
+		Description = "Static library";
+		IconNamePrefix = "TargetLibrary";
+		Identifier = "com.apple.product-type.library.static";
+		Name = "Static Library";
+		PackageTypes = ( "com.apple.package-type.static-library" );
+		Type = "ProductType";
+	},
+    // Dynamic library
+    {   Type = ProductType;
+        Identifier = com.apple.product-type.library.dynamic;
+        Class = PBXDynamicLibraryProductType;
+        Name = "Dynamic Library";
+        Description = "Dynamic library";
+        IconNamePrefix = "TargetLibrary";
+        DefaultTargetName = "Dynamic Library";
+        DefaultBuildProperties = {
+            FULL_PRODUCT_NAME = "$(EXECUTABLE_NAME)";
+            MACH_O_TYPE = "mh_dylib";
+            REZ_EXECUTABLE = YES;
+            EXECUTABLE_SUFFIX = ".$(EXECUTABLE_EXTENSION)";
+            EXECUTABLE_EXTENSION = "dylib";
+            PUBLIC_HEADERS_FOLDER_PATH = "/usr/local/include";
+            PRIVATE_HEADERS_FOLDER_PATH = "/usr/local/include";
+            INSTALL_PATH = "/usr/local/lib";
+            DYLIB_INSTALL_NAME_BASE = "$(INSTALL_PATH)";
+            LD_DYLIB_INSTALL_NAME = "$(DYLIB_INSTALL_NAME_BASE:standardizepath)/$(EXECUTABLE_PATH)";
+            DYLIB_COMPATIBILITY_VERSION = "1";
+            DYLIB_CURRENT_VERSION = "1";
+            FRAMEWORK_FLAG_PREFIX = "-framework";
+            LIBRARY_FLAG_PREFIX = "-l";
+            LIBRARY_FLAG_NOSPACE = YES;
+            STRIP_STYLE = "debugging";
+            GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
+            CODE_SIGNING_ALLOWED = YES;
+        };
+        PackageTypes = (
+            com.apple.package-type.mach-o-dylib   // default
+        );
+    },
+
+    // Framework
+        {   Type = ProductType;
+            Identifier = com.apple.product-type.framework;
+            BasedOn = com.apple.product-type.bundle;
+            Class = PBXFrameworkProductType;
+            Name = "Framework";
+            Description = "Framework";
+            IconNamePrefix = "TargetFramework";
+            DefaultTargetName = "Framework";
+            DefaultBuildProperties = {
+                MACH_O_TYPE = "mh_dylib";
+                FRAMEWORK_VERSION = "A";
+                WRAPPER_SUFFIX = ".$(WRAPPER_EXTENSION)";
+                WRAPPER_EXTENSION = "framework";
+                INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+                DYLIB_INSTALL_NAME_BASE = "$(INSTALL_PATH)";
+                LD_DYLIB_INSTALL_NAME = "$(DYLIB_INSTALL_NAME_BASE:standardizepath)/$(EXECUTABLE_PATH)";
+                STRIP_STYLE = "debugging";
+                CODE_SIGNING_ALLOWED = YES;
+            };
+            PackageTypes = (
+                com.apple.package-type.wrapper.framework   // default
+            );
+        },
+)

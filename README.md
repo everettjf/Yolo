@@ -5,7 +5,7 @@ Some scripts or demo projects.
 ## Tweak
 
 - AlipayWalletChatVoiceSaver : tweak for save alipay voice message to file.
-- WechatVoiceSaver : tweak for save wechat voice message to file.
+- WeChatVoiceSaver : tweak for save wechat voice message to file.
 - iOSREPractise : my practise for iOS reverse engineering.
 
 ## Shell

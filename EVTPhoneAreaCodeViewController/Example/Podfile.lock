@@ -1,0 +1,16 @@
+PODS:
+  - EVTPhoneAreaCodeViewController (1.0.0)
+
+DEPENDENCIES:
+  - EVTPhoneAreaCodeViewController (from `../`)
+
+EXTERNAL SOURCES:
+  EVTPhoneAreaCodeViewController:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  EVTPhoneAreaCodeViewController: 56ce68c473141bb3810a670bc830c1ec1d4fea35
+
+PODFILE CHECKSUM: 60034dc0f2e1cde713319be2c7bfe9d58875389f
+
+COCOAPODS: 1.0.1

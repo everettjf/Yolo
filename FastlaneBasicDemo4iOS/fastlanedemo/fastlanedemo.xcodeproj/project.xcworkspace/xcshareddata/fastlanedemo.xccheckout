@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>04BEB2CC-562F-4A78-B2C1-3654C04F07D9</string>
+	<key>IDESourceControlProjectName</key>
+	<string>fastlanedemo</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>4B38EB861608766F944C1608A99EEC59E568F1EE</key>
+		<string>https://github.com/everettjf/ios_ci_fastlane_demo.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>fastlanedemo/fastlanedemo.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>4B38EB861608766F944C1608A99EEC59E568F1EE</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/everettjf/ios_ci_fastlane_demo.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>4B38EB861608766F944C1608A99EEC59E568F1EE</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>4B38EB861608766F944C1608A99EEC59E568F1EE</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ios_ci_fastlane_demo</string>
+		</dict>
+	</array>
+</dict>
+</plist>

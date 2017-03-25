@@ -1,0 +1,12 @@
+
+#use_frameworks!
+
+target 'EVTPhoneAreaCodeViewController_Example' do
+  pod 'EVTPhoneAreaCodeViewController', :path => '../'
+
+  target 'EVTPhoneAreaCodeViewController_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

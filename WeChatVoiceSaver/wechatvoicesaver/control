@@ -1,0 +1,9 @@
+Package: com.everettjf.wechatvoicesaver
+Name: WeChatVoiceSaver
+Depends: mobilesubstrate
+Version: 0.0.1
+Architecture: iphoneos-arm
+Description: Copy wechat voice in favorite to one directory
+Maintainer: everettjf
+Author: everettjf
+Section: Tweaks

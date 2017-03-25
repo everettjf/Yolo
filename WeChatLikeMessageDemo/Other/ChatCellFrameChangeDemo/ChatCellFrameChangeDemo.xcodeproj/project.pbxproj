@@ -1,0 +1,313 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D10DB6541D15507B004CDDEC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D10DB6531D15507B004CDDEC /* main.m */; };
+		D10DB6571D15507B004CDDEC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D10DB6561D15507B004CDDEC /* AppDelegate.m */; };
+		D10DB65A1D15507B004CDDEC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D10DB6591D15507B004CDDEC /* ViewController.m */; };
+		D10DB65D1D15507B004CDDEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D10DB65B1D15507B004CDDEC /* Main.storyboard */; };
+		D10DB65F1D15507B004CDDEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D10DB65E1D15507B004CDDEC /* Assets.xcassets */; };
+		D10DB6621D15507B004CDDEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D10DB6601D15507B004CDDEC /* LaunchScreen.storyboard */; };
+		D10DB66B1D15509C004CDDEC /* ChatCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D10DB66A1D15509C004CDDEC /* ChatCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D10DB64F1D15507B004CDDEC /* ChatCellFrameChangeDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatCellFrameChangeDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D10DB6531D15507B004CDDEC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D10DB6551D15507B004CDDEC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D10DB6561D15507B004CDDEC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D10DB6581D15507B004CDDEC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D10DB6591D15507B004CDDEC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D10DB65C1D15507B004CDDEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D10DB65E1D15507B004CDDEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D10DB6611D15507B004CDDEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D10DB6631D15507B004CDDEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D10DB6691D15509C004CDDEC /* ChatCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChatCell.h; path = ../../../Other/ChatCellFrameChangeDemo/ChatCellFrameChangeDemo/ChatCell.h; sourceTree = "<group>"; };
+		D10DB66A1D15509C004CDDEC /* ChatCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ChatCell.m; path = ../../../Other/ChatCellFrameChangeDemo/ChatCellFrameChangeDemo/ChatCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D10DB64C1D15507B004CDDEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D10DB6461D15507B004CDDEC = {
+			isa = PBXGroup;
+			children = (
+				D10DB6511D15507B004CDDEC /* ChatCellFrameChangeDemo */,
+				D10DB6501D15507B004CDDEC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D10DB6501D15507B004CDDEC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D10DB64F1D15507B004CDDEC /* ChatCellFrameChangeDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D10DB6511D15507B004CDDEC /* ChatCellFrameChangeDemo */ = {
+			isa = PBXGroup;
+			children = (
+				D10DB6551D15507B004CDDEC /* AppDelegate.h */,
+				D10DB6561D15507B004CDDEC /* AppDelegate.m */,
+				D10DB6581D15507B004CDDEC /* ViewController.h */,
+				D10DB6591D15507B004CDDEC /* ViewController.m */,
+				D10DB65B1D15507B004CDDEC /* Main.storyboard */,
+				D10DB65E1D15507B004CDDEC /* Assets.xcassets */,
+				D10DB6601D15507B004CDDEC /* LaunchScreen.storyboard */,
+				D10DB6631D15507B004CDDEC /* Info.plist */,
+				D10DB6521D15507B004CDDEC /* Supporting Files */,
+				D10DB6691D15509C004CDDEC /* ChatCell.h */,
+				D10DB66A1D15509C004CDDEC /* ChatCell.m */,
+			);
+			path = ChatCellFrameChangeDemo;
+			sourceTree = "<group>";
+		};
+		D10DB6521D15507B004CDDEC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D10DB6531D15507B004CDDEC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D10DB64E1D15507B004CDDEC /* ChatCellFrameChangeDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D10DB6661D15507B004CDDEC /* Build configuration list for PBXNativeTarget "ChatCellFrameChangeDemo" */;
+			buildPhases = (
+				D10DB64B1D15507B004CDDEC /* Sources */,
+				D10DB64C1D15507B004CDDEC /* Frameworks */,
+				D10DB64D1D15507B004CDDEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChatCellFrameChangeDemo;
+			productName = ChatCellFrameChangeDemo;
+			productReference = D10DB64F1D15507B004CDDEC /* ChatCellFrameChangeDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D10DB6471D15507B004CDDEC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = everettjf;
+				TargetAttributes = {
+					D10DB64E1D15507B004CDDEC = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = D10DB64A1D15507B004CDDEC /* Build configuration list for PBXProject "ChatCellFrameChangeDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D10DB6461D15507B004CDDEC;
+			productRefGroup = D10DB6501D15507B004CDDEC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D10DB64E1D15507B004CDDEC /* ChatCellFrameChangeDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D10DB64D1D15507B004CDDEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D10DB6621D15507B004CDDEC /* LaunchScreen.storyboard in Resources */,
+				D10DB65F1D15507B004CDDEC /* Assets.xcassets in Resources */,
+				D10DB65D1D15507B004CDDEC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D10DB64B1D15507B004CDDEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D10DB65A1D15507B004CDDEC /* ViewController.m in Sources */,
+				D10DB66B1D15509C004CDDEC /* ChatCell.m in Sources */,
+				D10DB6571D15507B004CDDEC /* AppDelegate.m in Sources */,
+				D10DB6541D15507B004CDDEC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D10DB65B1D15507B004CDDEC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D10DB65C1D15507B004CDDEC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D10DB6601D15507B004CDDEC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D10DB6611D15507B004CDDEC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D10DB6641D15507B004CDDEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D10DB6651D15507B004CDDEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D10DB6671D15507B004CDDEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ChatCellFrameChangeDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.everettjf.ChatCellFrameChangeDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D10DB6681D15507B004CDDEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ChatCellFrameChangeDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.everettjf.ChatCellFrameChangeDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D10DB64A1D15507B004CDDEC /* Build configuration list for PBXProject "ChatCellFrameChangeDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D10DB6641D15507B004CDDEC /* Debug */,
+				D10DB6651D15507B004CDDEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D10DB6661D15507B004CDDEC /* Build configuration list for PBXNativeTarget "ChatCellFrameChangeDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D10DB6671D15507B004CDDEC /* Debug */,
+				D10DB6681D15507B004CDDEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D10DB6471D15507B004CDDEC /* Project object */;
+}

@@ -1,0 +1,448 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D10DB69D1D15DA7E004CDDEC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D10DB69C1D15DA7E004CDDEC /* main.m */; };
+		D10DB6A01D15DA7E004CDDEC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D10DB69F1D15DA7E004CDDEC /* AppDelegate.m */; };
+		D10DB6A61D15DA7E004CDDEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D10DB6A41D15DA7E004CDDEC /* Main.storyboard */; };
+		D10DB6A81D15DA7E004CDDEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D10DB6A71D15DA7E004CDDEC /* Assets.xcassets */; };
+		D10DB6AB1D15DA7E004CDDEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D10DB6A91D15DA7E004CDDEC /* LaunchScreen.storyboard */; };
+		D10DB6C01D167AAB004CDDEC /* EIMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D10DB6BF1D167AAB004CDDEC /* EIMViewController.m */; };
+		D10DB6C31D167B02004CDDEC /* EIMNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = D10DB6C21D167B02004CDDEC /* EIMNavigationController.m */; };
+		D10DB6C61D167B46004CDDEC /* EIMUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = D10DB6C51D167B46004CDDEC /* EIMUtility.m */; };
+		D10DB6CC1D167D79004CDDEC /* EIMMessageWrap.m in Sources */ = {isa = PBXBuildFile; fileRef = D10DB6CB1D167D79004CDDEC /* EIMMessageWrap.m */; };
+		D10DB6D01D167DB0004CDDEC /* EIMMessageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D10DB6CF1D167DB0004CDDEC /* EIMMessageManager.m */; };
+		D10DB6D31D167DE5004CDDEC /* EIMMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D10DB6D21D167DE5004CDDEC /* EIMMessageViewController.m */; };
+		D10DB6D61D167E05004CDDEC /* DemoMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D10DB6D51D167E05004CDDEC /* DemoMessageViewController.m */; };
+		D10DB6DA1D167E81004CDDEC /* EIMView.m in Sources */ = {isa = PBXBuildFile; fileRef = D10DB6D91D167E81004CDDEC /* EIMView.m */; };
+		D10DB6DD1D167EC8004CDDEC /* EIMBaseMessageNodeView.m in Sources */ = {isa = PBXBuildFile; fileRef = D10DB6DC1D167EC8004CDDEC /* EIMBaseMessageNodeView.m */; };
+		D10DB6E11D167F3B004CDDEC /* EIMMessageNodeData.m in Sources */ = {isa = PBXBuildFile; fileRef = D10DB6E01D167F3B004CDDEC /* EIMMessageNodeData.m */; };
+		D10DB6E41D168B77004CDDEC /* EIMMultiSelectTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D10DB6E31D168B77004CDDEC /* EIMMultiSelectTableViewCell.m */; };
+		D10DB6E71D168CF9004CDDEC /* EIMTextMessageNodeView.m in Sources */ = {isa = PBXBuildFile; fileRef = D10DB6E61D168CF9004CDDEC /* EIMTextMessageNodeView.m */; };
+		D10DB6EA1D168D0C004CDDEC /* EIMImageMessageNodeView.m in Sources */ = {isa = PBXBuildFile; fileRef = D10DB6E91D168D0C004CDDEC /* EIMImageMessageNodeView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D10DB6981D15DA7E004CDDEC /* EIMKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EIMKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D10DB69C1D15DA7E004CDDEC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D10DB69E1D15DA7E004CDDEC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D10DB69F1D15DA7E004CDDEC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D10DB6A51D15DA7E004CDDEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D10DB6A71D15DA7E004CDDEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D10DB6AA1D15DA7E004CDDEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D10DB6AC1D15DA7E004CDDEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D10DB6B31D1664B4004CDDEC /* EIMKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EIMKit.h; path = EIMKit/EIMKit.h; sourceTree = "<group>"; };
+		D10DB6BE1D167AAB004CDDEC /* EIMViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EIMViewController.h; path = EIMKit/Common/EIMViewController.h; sourceTree = "<group>"; };
+		D10DB6BF1D167AAB004CDDEC /* EIMViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EIMViewController.m; path = EIMKit/Common/EIMViewController.m; sourceTree = "<group>"; };
+		D10DB6C11D167B02004CDDEC /* EIMNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EIMNavigationController.h; path = EIMKit/Common/EIMNavigationController.h; sourceTree = "<group>"; };
+		D10DB6C21D167B02004CDDEC /* EIMNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EIMNavigationController.m; path = EIMKit/Common/EIMNavigationController.m; sourceTree = "<group>"; };
+		D10DB6C41D167B46004CDDEC /* EIMUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EIMUtility.h; path = EIMKit/Utility/EIMUtility.h; sourceTree = "<group>"; };
+		D10DB6C51D167B46004CDDEC /* EIMUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EIMUtility.m; path = EIMKit/Utility/EIMUtility.m; sourceTree = "<group>"; };
+		D10DB6CA1D167D79004CDDEC /* EIMMessageWrap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EIMMessageWrap.h; path = EIMKit/Model/EIMMessageWrap.h; sourceTree = "<group>"; };
+		D10DB6CB1D167D79004CDDEC /* EIMMessageWrap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EIMMessageWrap.m; path = EIMKit/Model/EIMMessageWrap.m; sourceTree = "<group>"; };
+		D10DB6CE1D167DB0004CDDEC /* EIMMessageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EIMMessageManager.h; path = EIMKit/Manager/EIMMessageManager.h; sourceTree = "<group>"; };
+		D10DB6CF1D167DB0004CDDEC /* EIMMessageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EIMMessageManager.m; path = EIMKit/Manager/EIMMessageManager.m; sourceTree = "<group>"; };
+		D10DB6D11D167DE5004CDDEC /* EIMMessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EIMMessageViewController.h; path = EIMKit/Controller/EIMMessageViewController.h; sourceTree = "<group>"; };
+		D10DB6D21D167DE5004CDDEC /* EIMMessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EIMMessageViewController.m; path = EIMKit/Controller/EIMMessageViewController.m; sourceTree = "<group>"; };
+		D10DB6D41D167E05004CDDEC /* DemoMessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoMessageViewController.h; sourceTree = "<group>"; };
+		D10DB6D51D167E05004CDDEC /* DemoMessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoMessageViewController.m; sourceTree = "<group>"; };
+		D10DB6D81D167E81004CDDEC /* EIMView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EIMView.h; path = EIMKit/Common/EIMView.h; sourceTree = "<group>"; };
+		D10DB6D91D167E81004CDDEC /* EIMView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EIMView.m; path = EIMKit/Common/EIMView.m; sourceTree = "<group>"; };
+		D10DB6DB1D167EC8004CDDEC /* EIMBaseMessageNodeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EIMBaseMessageNodeView.h; path = EIMKit/View/MessageNode/EIMBaseMessageNodeView.h; sourceTree = "<group>"; };
+		D10DB6DC1D167EC8004CDDEC /* EIMBaseMessageNodeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EIMBaseMessageNodeView.m; path = EIMKit/View/MessageNode/EIMBaseMessageNodeView.m; sourceTree = "<group>"; };
+		D10DB6DF1D167F3B004CDDEC /* EIMMessageNodeData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EIMMessageNodeData.h; path = EIMKit/Model/EIMMessageNodeData.h; sourceTree = "<group>"; };
+		D10DB6E01D167F3B004CDDEC /* EIMMessageNodeData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EIMMessageNodeData.m; path = EIMKit/Model/EIMMessageNodeData.m; sourceTree = "<group>"; };
+		D10DB6E21D168B77004CDDEC /* EIMMultiSelectTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EIMMultiSelectTableViewCell.h; path = EIMKit/Controller/EIMMultiSelectTableViewCell.h; sourceTree = "<group>"; };
+		D10DB6E31D168B77004CDDEC /* EIMMultiSelectTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EIMMultiSelectTableViewCell.m; path = EIMKit/Controller/EIMMultiSelectTableViewCell.m; sourceTree = "<group>"; };
+		D10DB6E51D168CF9004CDDEC /* EIMTextMessageNodeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EIMTextMessageNodeView.h; path = EIMKit/View/MessageNode/EIMTextMessageNodeView.h; sourceTree = "<group>"; };
+		D10DB6E61D168CF9004CDDEC /* EIMTextMessageNodeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EIMTextMessageNodeView.m; path = EIMKit/View/MessageNode/EIMTextMessageNodeView.m; sourceTree = "<group>"; };
+		D10DB6E81D168D0C004CDDEC /* EIMImageMessageNodeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EIMImageMessageNodeView.h; path = EIMKit/View/MessageNode/EIMImageMessageNodeView.h; sourceTree = "<group>"; };
+		D10DB6E91D168D0C004CDDEC /* EIMImageMessageNodeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EIMImageMessageNodeView.m; path = EIMKit/View/MessageNode/EIMImageMessageNodeView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D10DB6951D15DA7E004CDDEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D10DB68F1D15DA7E004CDDEC = {
+			isa = PBXGroup;
+			children = (
+				D10DB69A1D15DA7E004CDDEC /* EIMKitDemo */,
+				D10DB6991D15DA7E004CDDEC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D10DB6991D15DA7E004CDDEC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D10DB6981D15DA7E004CDDEC /* EIMKitDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D10DB69A1D15DA7E004CDDEC /* EIMKitDemo */ = {
+			isa = PBXGroup;
+			children = (
+				D10DB6B21D166494004CDDEC /* EIMKit */,
+				D10DB69E1D15DA7E004CDDEC /* AppDelegate.h */,
+				D10DB69F1D15DA7E004CDDEC /* AppDelegate.m */,
+				D10DB6A41D15DA7E004CDDEC /* Main.storyboard */,
+				D10DB6A71D15DA7E004CDDEC /* Assets.xcassets */,
+				D10DB6A91D15DA7E004CDDEC /* LaunchScreen.storyboard */,
+				D10DB6AC1D15DA7E004CDDEC /* Info.plist */,
+				D10DB69B1D15DA7E004CDDEC /* Supporting Files */,
+				D10DB6D41D167E05004CDDEC /* DemoMessageViewController.h */,
+				D10DB6D51D167E05004CDDEC /* DemoMessageViewController.m */,
+			);
+			path = EIMKitDemo;
+			sourceTree = "<group>";
+		};
+		D10DB69B1D15DA7E004CDDEC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D10DB69C1D15DA7E004CDDEC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D10DB6B21D166494004CDDEC /* EIMKit */ = {
+			isa = PBXGroup;
+			children = (
+				D10DB6D71D167E28004CDDEC /* View */,
+				D10DB6CD1D167D9B004CDDEC /* Manager */,
+				D10DB6B91D1678E3004CDDEC /* Model */,
+				D10DB6B81D167651004CDDEC /* Utility */,
+				D10DB6B71D16764B004CDDEC /* Common */,
+				D10DB6B61D167641004CDDEC /* Controller */,
+				D10DB6B31D1664B4004CDDEC /* EIMKit.h */,
+			);
+			name = EIMKit;
+			sourceTree = "<group>";
+		};
+		D10DB6B61D167641004CDDEC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D10DB6D11D167DE5004CDDEC /* EIMMessageViewController.h */,
+				D10DB6D21D167DE5004CDDEC /* EIMMessageViewController.m */,
+				D10DB6E21D168B77004CDDEC /* EIMMultiSelectTableViewCell.h */,
+				D10DB6E31D168B77004CDDEC /* EIMMultiSelectTableViewCell.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		D10DB6B71D16764B004CDDEC /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				D10DB6BE1D167AAB004CDDEC /* EIMViewController.h */,
+				D10DB6BF1D167AAB004CDDEC /* EIMViewController.m */,
+				D10DB6C11D167B02004CDDEC /* EIMNavigationController.h */,
+				D10DB6C21D167B02004CDDEC /* EIMNavigationController.m */,
+				D10DB6D81D167E81004CDDEC /* EIMView.h */,
+				D10DB6D91D167E81004CDDEC /* EIMView.m */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		D10DB6B81D167651004CDDEC /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				D10DB6C41D167B46004CDDEC /* EIMUtility.h */,
+				D10DB6C51D167B46004CDDEC /* EIMUtility.m */,
+			);
+			name = Utility;
+			sourceTree = "<group>";
+		};
+		D10DB6B91D1678E3004CDDEC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D10DB6CA1D167D79004CDDEC /* EIMMessageWrap.h */,
+				D10DB6CB1D167D79004CDDEC /* EIMMessageWrap.m */,
+				D10DB6DF1D167F3B004CDDEC /* EIMMessageNodeData.h */,
+				D10DB6E01D167F3B004CDDEC /* EIMMessageNodeData.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		D10DB6CD1D167D9B004CDDEC /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				D10DB6CE1D167DB0004CDDEC /* EIMMessageManager.h */,
+				D10DB6CF1D167DB0004CDDEC /* EIMMessageManager.m */,
+			);
+			name = Manager;
+			sourceTree = "<group>";
+		};
+		D10DB6D71D167E28004CDDEC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D10DB6DE1D167ECC004CDDEC /* MessageNode */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		D10DB6DE1D167ECC004CDDEC /* MessageNode */ = {
+			isa = PBXGroup;
+			children = (
+				D10DB6DB1D167EC8004CDDEC /* EIMBaseMessageNodeView.h */,
+				D10DB6DC1D167EC8004CDDEC /* EIMBaseMessageNodeView.m */,
+				D10DB6E51D168CF9004CDDEC /* EIMTextMessageNodeView.h */,
+				D10DB6E61D168CF9004CDDEC /* EIMTextMessageNodeView.m */,
+				D10DB6E81D168D0C004CDDEC /* EIMImageMessageNodeView.h */,
+				D10DB6E91D168D0C004CDDEC /* EIMImageMessageNodeView.m */,
+			);
+			name = MessageNode;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D10DB6971D15DA7E004CDDEC /* EIMKitDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D10DB6AF1D15DA7E004CDDEC /* Build configuration list for PBXNativeTarget "EIMKitDemo" */;
+			buildPhases = (
+				D10DB6941D15DA7E004CDDEC /* Sources */,
+				D10DB6951D15DA7E004CDDEC /* Frameworks */,
+				D10DB6961D15DA7E004CDDEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EIMKitDemo;
+			productName = EIMKitDemo;
+			productReference = D10DB6981D15DA7E004CDDEC /* EIMKitDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D10DB6901D15DA7E004CDDEC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = everettjf;
+				TargetAttributes = {
+					D10DB6971D15DA7E004CDDEC = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = D10DB6931D15DA7E004CDDEC /* Build configuration list for PBXProject "EIMKitDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D10DB68F1D15DA7E004CDDEC;
+			productRefGroup = D10DB6991D15DA7E004CDDEC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D10DB6971D15DA7E004CDDEC /* EIMKitDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D10DB6961D15DA7E004CDDEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D10DB6AB1D15DA7E004CDDEC /* LaunchScreen.storyboard in Resources */,
+				D10DB6A81D15DA7E004CDDEC /* Assets.xcassets in Resources */,
+				D10DB6A61D15DA7E004CDDEC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D10DB6941D15DA7E004CDDEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D10DB6D31D167DE5004CDDEC /* EIMMessageViewController.m in Sources */,
+				D10DB6C01D167AAB004CDDEC /* EIMViewController.m in Sources */,
+				D10DB6D01D167DB0004CDDEC /* EIMMessageManager.m in Sources */,
+				D10DB6DA1D167E81004CDDEC /* EIMView.m in Sources */,
+				D10DB6C61D167B46004CDDEC /* EIMUtility.m in Sources */,
+				D10DB6A01D15DA7E004CDDEC /* AppDelegate.m in Sources */,
+				D10DB6C31D167B02004CDDEC /* EIMNavigationController.m in Sources */,
+				D10DB6EA1D168D0C004CDDEC /* EIMImageMessageNodeView.m in Sources */,
+				D10DB6D61D167E05004CDDEC /* DemoMessageViewController.m in Sources */,
+				D10DB6CC1D167D79004CDDEC /* EIMMessageWrap.m in Sources */,
+				D10DB6E11D167F3B004CDDEC /* EIMMessageNodeData.m in Sources */,
+				D10DB6E41D168B77004CDDEC /* EIMMultiSelectTableViewCell.m in Sources */,
+				D10DB6E71D168CF9004CDDEC /* EIMTextMessageNodeView.m in Sources */,
+				D10DB69D1D15DA7E004CDDEC /* main.m in Sources */,
+				D10DB6DD1D167EC8004CDDEC /* EIMBaseMessageNodeView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D10DB6A41D15DA7E004CDDEC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D10DB6A51D15DA7E004CDDEC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D10DB6A91D15DA7E004CDDEC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D10DB6AA1D15DA7E004CDDEC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D10DB6AD1D15DA7E004CDDEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D10DB6AE1D15DA7E004CDDEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D10DB6B01D15DA7E004CDDEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EIMKitDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.everettjf.EIMKitDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D10DB6B11D15DA7E004CDDEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EIMKitDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.everettjf.EIMKitDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D10DB6931D15DA7E004CDDEC /* Build configuration list for PBXProject "EIMKitDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D10DB6AD1D15DA7E004CDDEC /* Debug */,
+				D10DB6AE1D15DA7E004CDDEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D10DB6AF1D15DA7E004CDDEC /* Build configuration list for PBXNativeTarget "EIMKitDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D10DB6B01D15DA7E004CDDEC /* Debug */,
+				D10DB6B11D15DA7E004CDDEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D10DB6901D15DA7E004CDDEC /* Project object */;
+}

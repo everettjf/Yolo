@@ -1,0 +1,9 @@
+Package: com.everettjf.alipaywalletchatvoicesaver
+Name: alipaywalletchatvoicesaver
+Depends: mobilesubstrate
+Version: 0.0.2
+Architecture: iphoneos-arm
+Description: Save chat voice in Alipay.
+Maintainer: everettjf
+Author: everettjf
+Section: Tweaks

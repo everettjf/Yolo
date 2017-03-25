@@ -1,0 +1,18 @@
+app_identifier "com.everettjf.fastlanedemo" # The bundle identifier of your app
+apple_id "xxxxxx@xxxcom" # Your Apple email address
+
+# You can uncomment any of the lines below and add your own
+# team selection in case you're in multiple teams
+# team_name "Felix Krause"
+# team_id "Q2CBPJ58CA"
+
+
+# you can even provide different app identifiers, Apple IDs and team names per lane:
+# https://github.com/KrauseFx/fastlane/blob/master/docs/Appfile.md
+
+
+for_lane :inhouse do
+    app_identifier "com.everettjf.fastlanedemoqiye"
+    apple_id "yyyyyy@yyyy.com"
+end
+

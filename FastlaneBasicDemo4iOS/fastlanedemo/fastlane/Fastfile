@@ -1,0 +1,233 @@
+# Customise this file, documentation can be found here:
+# https://github.com/KrauseFx/fastlane/tree/master/docs
+# All available actions: https://github.com/KrauseFx/fastlane/blob/master/docs/Actions.md
+# can also be listed using the `fastlane actions` command
+
+# Change the syntax highlighting to Ruby
+# All lines starting with a # are ignored when running `fastlane`
+
+# By default, fastlane will send which actions are used
+# No personal data is shared, more information on https://github.com/fastlane/enhancer
+# Uncomment the following line to opt out
+# opt_out_usage
+
+# If you want to automatically update fastlane if a new version is available:
+# update_fastlane
+
+# This is the minimum version number required.
+# Update this, if you use features of a newer version
+fastlane_version "1.25.0"
+
+default_platform :ios
+
+PROJECT_FILE_PATH = './fastlanedemo.xcodeproj'
+APP_NAME = 'fastlanedemo'
+SCHEME_NAME = 'fastlanedemo'
+INHOUSE_IDENTIFIER = 'com.everettjf.fastlanedemoqiye'
+OTHER_IDENTIFIER = 'com.everettjf.fastlanedemo'
+PLIST_FILE_PATH = 'fastlanedemo/Info.plist'
+UNITTEST_PLIST_FILE_PATH = 'fastlanedemoTests/Info.plist'
+
+def update_app_identifier(app_id)
+
+    update_info_plist(
+        xcodeproj:PROJECT_FILE_PATH ,
+        app_identifier:app_id,
+        plist_path:"#{PLIST_FILE_PATH}"
+    )
+    update_info_plist(
+        xcodeproj:PROJECT_FILE_PATH ,
+        app_identifier:app_id,
+        plist_path:"#{UNITTEST_PLIST_FILE_PATH}"
+    )
+
+end
+
+def prepare_version(options)
+    #say 'version number:'
+    #say options[:version]
+    increment_version_number(
+        version_number: options[:version],
+        xcodeproj: PROJECT_FILE_PATH,
+    )
+
+    #say 'build number:'
+    #say options[:build]
+    increment_build_number(
+        build_number: options[:build],
+        xcodeproj: PROJECT_FILE_PATH,
+    )
+end
+
+
+def download_provision(typePrefix,isAdHoc)
+    # We manual download the provision
+    return
+
+    if not is_ci?
+        sigh(
+            adhoc:isAdHoc,
+            force:false,
+            filename:"#{typePrefix}.mobileprovision",
+            output_path:"./fastlane/provision"
+        )
+    end
+end
+
+def update_provision(typePrefix)
+    update_project_provisioning(
+        xcodeproj:PROJECT_FILE_PATH ,
+        profile:"./fastlane/provision/#{typePrefix}.mobileprovision",
+    )
+end
+
+def set_info_plist_value(path,key,value)
+    sh "/usr/libexec/PlistBuddy -c \"set :#{key} #{value}\" #{path}"
+end
+
+def set_channel_id(channelId)
+    set_info_plist_value(
+        "./../fastlanedemo/#{PLIST_FILE_PATH}",
+        'ChannelID',
+        "#{channelId}"
+    )
+end
+
+def generate_ipa(typePrefix,options)
+    #say 'generate ipa'
+
+    fullVersion = options[:version] + '.' + options[:build]
+    channelId = options[:channel_id]
+
+    ipa(
+        configuration:"Release",
+        scheme:"#{SCHEME_NAME}",
+        destination:"./build",
+        ipa:"#{APP_NAME}_#{fullVersion}_#{typePrefix}.ipa",
+        archive:false
+    )
+
+    sh "mv ./../build/#{APP_NAME}.app.dSYM.zip ./../build/#{APP_NAME}_#{fullVersion}_#{typePrefix}.app.dSYM.zip"
+end
+
+
+platform :ios do
+
+  before_all do
+    # ENV["SLACK_URL"] = "https://hooks.slack.com/services/..."
+
+    # cocoapods
+
+    #gym # Build your app - more options available
+
+    # xctool # run the tests of your app
+  end
+
+  desc "Runs all the tests"
+  lane :test do
+    # snapshot
+  end
+
+  desc "AdHoc by personal apple account"
+  lane :AdHoc do |options|
+    typePrefix = 'AdHoc'
+    set_channel_id(typePrefix)
+    prepare_version(options)
+    download_provision(typePrefix,true)
+    update_app_identifier("#{OTHER_IDENTIFIER}")
+    update_provision(typePrefix)
+    generate_ipa(typePrefix,options)
+  end
+
+  desc "AppStore by personal apple account"
+  lane :AppStore do |options|
+    typePrefix = 'AppStore'
+    set_channel_id(typePrefix)
+    prepare_version(options)
+    download_provision(typePrefix,false)
+    update_app_identifier("#{OTHER_IDENTIFIER}")
+    update_provision(typePrefix)
+    generate_ipa(typePrefix,options)
+  end
+
+  desc "InHouse by personal apple account"
+  lane :InHouse do |options|
+    typePrefix = 'InHouse'
+    set_channel_id(typePrefix)
+    prepare_version(options)
+    download_provision(typePrefix,false)
+    update_provision(typePrefix)
+    update_app_identifier("#{INHOUSE_IDENTIFIER}")
+    generate_ipa(typePrefix,options)
+  end
+
+  desc "Develop by personal apple account"
+  lane :Develop do |options|
+    typePrefix = 'Develop'
+    set_channel_id(typePrefix)
+    prepare_version(options)
+    if not is_ci?
+        #say "Here you must manual copy the provision file into provision/Develop.mobileprovision"
+    end
+    update_app_identifier("#{OTHER_IDENTIFIER}")
+    update_provision(typePrefix)
+    generate_ipa(typePrefix,options)
+  end
+
+  desc "Channel by personal apple account"
+  lane :Channel do |options|
+    channelId = options[:channel_id]
+    set_channel_id(channelId)
+    typePrefix = "Channel#{channelId}"
+    prepare_version(options)
+    if not is_ci?
+        #say "Here you must manual copy the provision file into provision/Develop.mobileprovision"
+    end
+    update_app_identifier("#{OTHER_IDENTIFIER}")
+    # here we use development provisioning file
+    update_provision('Develop')
+    generate_ipa(typePrefix,options)
+  end
+
+  desc "Submit a new Beta Build to Apple TestFlight"
+  desc "This will also make sure the profile is up to date"
+  lane :beta do
+    # snapshot
+    # sigh
+    # deliver(beta: true)
+
+    # sh "your_script.sh"
+    # You can also use other beta testing services here
+  end
+
+  desc "Deploy a new version to the App Store"
+  desc "** Full Markdown** Support: `code`"
+  lane :deploy do
+    # snapshot
+    # sigh
+    # deliver(skip_deploy: true, force: true)
+    # frameit
+  end
+
+  # You can define as many lanes as you want
+
+  after_all do |lane|
+    # This block is called, only if the executed lane was successful
+    
+    # slack(
+    #   message: "Successfully deployed new App Update."
+    # )
+  end
+
+
+  error do |lane, exception|
+    # slack(
+    #   message: exception.message,
+    #   success: false
+    # )
+  end
+end
+
+
+# More information about multiple platforms in fastlane: 
+# https://github.com/KrauseFx/fastlane/blob/master/docs/Platforms.md

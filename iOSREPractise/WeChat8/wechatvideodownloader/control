@@ -1,0 +1,9 @@
+Package: com.everettjf.wechatvideodownloader
+Name: wechatvideodownloader
+Depends: mobilesubstrate
+Version: 0.0.1
+Architecture: iphoneos-arm
+Description: A WeChat video downloader
+Maintainer: everettjf
+Author: everettjf
+Section: Tweaks

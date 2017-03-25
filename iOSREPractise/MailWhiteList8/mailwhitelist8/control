@@ -1,0 +1,10 @@
+Package: com.everettjf.mailwhitelist8
+Name: mailwhitelist8
+Depends: mobilesubstrate, firmware(>=8.0)
+Version: 0.0.1
+Architecture: iphoneos-arm
+Description: mail whitelist support
+Maintainer: everettjf
+Author: everettjf
+Section: Tweaks
+Homepage: http://everettjf.github.io

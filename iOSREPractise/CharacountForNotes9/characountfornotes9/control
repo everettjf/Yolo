@@ -1,0 +1,10 @@
+Package: com.everettjf.characountfornote9
+Name: characountfornotes9
+Depends: mobilesubstrate, firmware (>=9.0)
+Version: 0.0.1
+Architecture: iphoneos-arm
+Description: Add a character count to Notes
+Maintainer: everettjf
+Author: everettjf
+Section: Tweaks
+Homepage: http://everettjf.github.io

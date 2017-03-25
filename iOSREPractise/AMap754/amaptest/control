@@ -1,0 +1,9 @@
+Package: com.everettjf.amaptest
+Name: amaptest
+Depends: mobilesubstrate
+Version: 0.0.1
+Architecture: iphoneos-arm
+Description: AMap anti-anti-debugging
+Maintainer: everettjf
+Author: everettjf
+Section: Tweaks

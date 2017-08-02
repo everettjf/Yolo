@@ -24,3 +24,4 @@ Some scripts or demo projects.
 - WeChatLikeMessageDemo : message ui implementation like wechat.
 - EVTPhoneAreaCodeViewController : phone area code select view controller.
 - EVTTabPageScrollView : a realy simple tab page view.
+- WechatFunnyAt : simple demo for MonkeyDevPod. (anonymously at someone)

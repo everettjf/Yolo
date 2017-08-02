@@ -6,7 +6,7 @@ Pod::Spec.new do |spec|
                           - WechatFunnyAt for MonkeyDev
                         DESC
 
-  spec.homepage         = "https://github.com/everettjf/Yolo/WechatFunnyAt"
+  spec.homepage         = "https://github.com/everettjf/Yolo"
 
   spec.license          = { :type => "BSD", :file => "LICENSE" }
   spec.author           = { "everettjf" => "everettjf@live.com" }

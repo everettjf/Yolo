@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "731D8FD2A91C424E408BDC068735441035817A9D",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "4FE32388FF68706AFB7457C6B04CC8F6573A062F" : 9223372036854775807,
+    "731D8FD2A91C424E408BDC068735441035817A9D" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "242D25CA-430F-4D3F-956A-3095A70FF399",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "4FE32388FF68706AFB7457C6B04CC8F6573A062F" : "",
+    "731D8FD2A91C424E408BDC068735441035817A9D" : "HookCppInitilizers\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "ModFuncInitApp",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "ModFuncInitApp\/ModFuncInitApp.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/everettjf\/Yolo.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "4FE32388FF68706AFB7457C6B04CC8F6573A062F"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "gitlab.alibaba-inc.com:everettjf.zf\/hook-cpp-initializer.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "731D8FD2A91C424E408BDC068735441035817A9D"
+    }
+  ]
+}

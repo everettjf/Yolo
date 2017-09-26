@@ -6,7 +6,7 @@
 def main():
     print '#import <Foundation/Foundation.h>'
 
-    for i in range(0,10000):
+    for i in range(0,1000):
         print '@interface Hello%d : NSObject'%i
         print '@end'
         print '@implementation Hello%d'%i

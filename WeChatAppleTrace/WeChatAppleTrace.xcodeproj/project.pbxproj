@@ -74,7 +74,7 @@
 		D1CDC9201F8E9D520060AD13 /* AntiAntiDebug.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AntiAntiDebug.m; path = AntiAntiDebug/AntiAntiDebug.m; sourceTree = "<group>"; };
 		D1CDC9231F8E9D520060AD13 /* fishhook.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = fishhook.c; path = fishhook/fishhook.c; sourceTree = "<group>"; };
 		D1CDC9251F8E9D520060AD13 /* fishhook.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = fishhook.h; path = fishhook/fishhook.h; sourceTree = "<group>"; };
-		D1CDC9271F8E9D520060AD13 /* WeChatAppleTraceDylib.xm */ = {isa = PBXFileReference; lastKnownFileType = text; path = WeChatAppleTraceDylib.xm; sourceTree = "<group>"; };
+		D1CDC9271F8E9D520060AD13 /* WeChatAppleTraceDylib.xm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = WeChatAppleTraceDylib.xm; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		D1CDC9281F8E9D520060AD13 /* WeChatAppleTraceDylib.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = WeChatAppleTraceDylib.mm; sourceTree = "<group>"; };
 		D1CDC92A1F8E9D520060AD13 /* WeChatAppleTraceDylib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WeChatAppleTraceDylib.h; sourceTree = "<group>"; };
 		D1CDC92C1F8E9D520060AD13 /* WeChatAppleTraceDylib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeChatAppleTraceDylib.m; sourceTree = "<group>"; };

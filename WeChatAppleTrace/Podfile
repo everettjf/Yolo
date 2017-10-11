@@ -1,0 +1,8 @@
+#source 'https://github.com/AloneMonkey/MonkeyDevSpecs.git'  #不可少
+source 'https://github.com/everettjf/MonkeyDevSpecs.git'
+
+use_frameworks!						#不可少
+
+target 'WeChatAppleTraceDylib' do			#target选动态库
+     pod 'AppleTrace','1.0.1'     			#pod的名字
+end

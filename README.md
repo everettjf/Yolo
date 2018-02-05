@@ -25,3 +25,11 @@ Some scripts or demo projects.
 - EVTPhoneAreaCodeViewController : phone area code select view controller.
 - EVTTabPageScrollView : a realy simple tab page view.
 - WechatFunnyAt : simple demo for MonkeyDevPod. (anonymously at someone)
+- BBSharedFramework : a large shared framework for iOS architect
+- FishhookObjcMsgSend : hook msg send using fishhook
+- HookCppInitializers : hook c++ static initializer for mach-o file
+- ListWeChatDirTree : list wechat directory architect
+- LoadableMacro : macros for adding a loadable section
+- PodspecDependencyGraph : convert podspec into dep graph
+- QtWithCMake : qt project cmake demo
+- WeChatAppleTrace : trace wechat app using AppleTrace tool

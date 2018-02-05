@@ -42,9 +42,6 @@ static inline ThreadCallStack * getThreadCallStack() {
     return cs;
 }
     
-// The original objc_msgSend.
-static id (*orig_objc_msgSend)(id, SEL, ...);
-
 static inline void pushCallRecord(id obj, SEL _cmd ,uintptr_t lr, const char * classname) {
     ThreadCallStack *cs = getThreadCallStack();
     
@@ -85,6 +82,9 @@ uintptr_t after_objc_msgSend() {
     
     return record->lr;
 }
+
+// The original objc_msgSend.
+static id (*orig_objc_msgSend)(id, SEL, ...);
 
 
 // Our replacement objc_msgSend (arm64).

@@ -40,9 +40,9 @@ int main(int argc, char * argv[])
         
         NSString *s = @"hi";
         NSLog(s);
-//        [Test hello];
-//        [Test world];
+        [Test hello];
+        [Test world];
 
-//        return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
+        return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
     }
 }

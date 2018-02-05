@@ -14,7 +14,7 @@
 		D14793C12028A5E500865782 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D14793BF2028A5E500865782 /* LaunchScreen.storyboard */; };
 		D14793CF2028A6AA00865782 /* fishhook.c in Sources */ = {isa = PBXBuildFile; fileRef = D14793CB2028A6AA00865782 /* fishhook.c */; };
 		D14793D02028A6AA00865782 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D14793CC2028A6AA00865782 /* main.m */; };
-		D14793D12028A6AA00865782 /* InspectiveCarm64.mm in Sources */ = {isa = PBXBuildFile; fileRef = D14793CE2028A6AA00865782 /* InspectiveCarm64.mm */; };
+		D14793D12028A6AA00865782 /* InspectiveCarm64.c in Sources */ = {isa = PBXBuildFile; fileRef = D14793CE2028A6AA00865782 /* InspectiveCarm64.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,11 +27,10 @@
 		D14793BD2028A5E500865782 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D14793C02028A5E500865782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D14793C22028A5E500865782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D14793CA2028A6AA00865782 /* ARM64Types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARM64Types.h; sourceTree = "<group>"; };
 		D14793CB2028A6AA00865782 /* fishhook.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fishhook.c; sourceTree = "<group>"; };
 		D14793CC2028A6AA00865782 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D14793CD2028A6AA00865782 /* fishhook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fishhook.h; sourceTree = "<group>"; };
-		D14793CE2028A6AA00865782 /* InspectiveCarm64.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = InspectiveCarm64.mm; sourceTree = "<group>"; };
+		D14793CE2028A6AA00865782 /* InspectiveCarm64.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = InspectiveCarm64.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,10 +63,9 @@
 		D14793B32028A5E500865782 /* FishhookObjcMsgSend */ = {
 			isa = PBXGroup;
 			children = (
-				D14793CA2028A6AA00865782 /* ARM64Types.h */,
 				D14793CB2028A6AA00865782 /* fishhook.c */,
 				D14793CD2028A6AA00865782 /* fishhook.h */,
-				D14793CE2028A6AA00865782 /* InspectiveCarm64.mm */,
+				D14793CE2028A6AA00865782 /* InspectiveCarm64.c */,
 				D14793CC2028A6AA00865782 /* main.m */,
 				D14793B42028A5E500865782 /* AppDelegate.h */,
 				D14793B52028A5E500865782 /* AppDelegate.m */,
@@ -155,7 +153,7 @@
 				D14793B92028A5E500865782 /* ViewController.m in Sources */,
 				D14793CF2028A6AA00865782 /* fishhook.c in Sources */,
 				D14793D02028A6AA00865782 /* main.m in Sources */,
-				D14793D12028A6AA00865782 /* InspectiveCarm64.mm in Sources */,
+				D14793D12028A6AA00865782 /* InspectiveCarm64.c in Sources */,
 				D14793B62028A5E500865782 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

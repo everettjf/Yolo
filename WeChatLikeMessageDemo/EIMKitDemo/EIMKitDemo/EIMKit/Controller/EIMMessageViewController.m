@@ -79,17 +79,26 @@
 }
 
 - (void)_addItemTapped:(id)sender{
+    static int index = 0;
     static int i =0 ,j = 0;
+    
+    ++index;
+    
+    NSString *str = [NSString stringWithFormat:@"%@ Helloooooooooooooooooooooooooooooooooooooooooo",@(index)];
+    NSString *img = [NSString stringWithFormat:@"%@ Image",@(index)];
     
     EIMMessageWrap *msg;
     if(++i % 2==0)
-        msg = [EIMMessageWrap createText:++j %2==0 text:@"Helloooooooooooooooooooooooooooooooooooooooooo"];
+        msg = [EIMMessageWrap createText:++j %2==0 text:str];
     else
-        msg = [EIMMessageWrap createImage:++j % 2 ==0 image:@"image"];
+        msg = [EIMMessageWrap createImage:++j % 2 ==0 image:img];
     
     [self addMessageNode:msg];
-    
-    [_tableView reloadData];
+    [_tableView insertRowsAtIndexPaths:@[
+                                         [NSIndexPath indexPathForRow:_messageNodeData.count-1 inSection:0]
+                                         ]
+                      withRowAnimation:UITableViewRowAnimationFade];
+
     [self _scrollTableViewToBottom];
 }
 

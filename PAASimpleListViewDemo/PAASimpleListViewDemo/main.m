@@ -2,8 +2,8 @@
 //  main.m
 //  PAASimpleListViewDemo
 //
-//  Created by qiwei on 2018/5/3.
-//  Copyright © 2018 qiwei. All rights reserved.
+//  Created by everettjf on 2018/5/3.
+//  Copyright © 2018 everettjf. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

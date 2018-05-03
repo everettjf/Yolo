@@ -13,6 +13,7 @@
 		CBD13EA3209AA0F6009EDF74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBD13EA2209AA0F6009EDF74 /* Assets.xcassets */; };
 		CBD13EA6209AA0F6009EDF74 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBD13EA4209AA0F6009EDF74 /* LaunchScreen.storyboard */; };
 		CBD13EA9209AA0F6009EDF74 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CBD13EA8209AA0F6009EDF74 /* main.m */; };
+		CBD13EB1209AA2E9009EDF74 /* PAAListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBD13EB0209AA2E9009EDF74 /* PAAListViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		CBD13EA5209AA0F6009EDF74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CBD13EA7209AA0F6009EDF74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CBD13EA8209AA0F6009EDF74 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CBD13EAF209AA2E9009EDF74 /* PAAListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PAAListViewController.h; sourceTree = "<group>"; };
+		CBD13EB0209AA2E9009EDF74 /* PAAListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PAAListViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				CBD13EA4209AA0F6009EDF74 /* LaunchScreen.storyboard */,
 				CBD13EA7209AA0F6009EDF74 /* Info.plist */,
 				CBD13EA8209AA0F6009EDF74 /* main.m */,
+				CBD13EAF209AA2E9009EDF74 /* PAAListViewController.h */,
+				CBD13EB0209AA2E9009EDF74 /* PAAListViewController.m */,
 			);
 			path = PAASimpleListViewDemo;
 			sourceTree = "<group>";
@@ -144,6 +149,7 @@
 				CBD13E9E209AA0F5009EDF74 /* ViewController.m in Sources */,
 				CBD13EA9209AA0F6009EDF74 /* main.m in Sources */,
 				CBD13E9B209AA0F5009EDF74 /* AppDelegate.m in Sources */,
+				CBD13EB1209AA2E9009EDF74 /* PAAListViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,7 +296,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.qiwei.PAASimpleListViewDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.everettjf.PAASimpleListViewDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -307,7 +313,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.qiwei.PAASimpleListViewDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.everettjf.PAASimpleListViewDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

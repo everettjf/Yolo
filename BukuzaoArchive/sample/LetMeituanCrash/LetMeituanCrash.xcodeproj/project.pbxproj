@@ -1,0 +1,354 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D1152D5B21576E39001AD9A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1152D5A21576E39001AD9A7 /* Foundation.framework */; };
+		D1152D6321576E39001AD9A7 /* LetMeituanCrash.mm in Sources */ = {isa = PBXBuildFile; fileRef = D1152D6221576E39001AD9A7 /* LetMeituanCrash.mm */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D1152D5721576E39001AD9A7 /* LetMeituanCrash.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = LetMeituanCrash.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1152D5A21576E39001AD9A7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D1152D5F21576E39001AD9A7 /* control */ = {isa = PBXFileReference; lastKnownFileType = text; name = control; path = Package/DEBIAN/control; sourceTree = "<group>"; };
+		D1152D6121576E39001AD9A7 /* LetMeituanCrash-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LetMeituanCrash-Prefix.pch"; sourceTree = "<group>"; };
+		D1152D6221576E39001AD9A7 /* LetMeituanCrash.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = LetMeituanCrash.mm; sourceTree = "<group>"; };
+		D1152D6721576E39001AD9A7 /* LetMeituanCrash.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = LetMeituanCrash.plist; path = Package/Library/MobileSubstrate/DynamicLibraries/LetMeituanCrash.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D1152D5321576E39001AD9A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1152D5B21576E39001AD9A7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D1152D4D21576E39001AD9A7 = {
+			isa = PBXGroup;
+			children = (
+				D1152D5C21576E39001AD9A7 /* LetMeituanCrash */,
+				D1152D5921576E39001AD9A7 /* Frameworks */,
+				D1152D5821576E39001AD9A7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D1152D5821576E39001AD9A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D1152D5721576E39001AD9A7 /* LetMeituanCrash.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D1152D5921576E39001AD9A7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D1152D5A21576E39001AD9A7 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D1152D5C21576E39001AD9A7 /* LetMeituanCrash */ = {
+			isa = PBXGroup;
+			children = (
+				D1152D6221576E39001AD9A7 /* LetMeituanCrash.mm */,
+				D1152D5D21576E39001AD9A7 /* Package */,
+				D1152D6021576E39001AD9A7 /* Supporting Files */,
+			);
+			path = LetMeituanCrash;
+			sourceTree = "<group>";
+		};
+		D1152D5D21576E39001AD9A7 /* Package */ = {
+			isa = PBXGroup;
+			children = (
+				D1152D5E21576E39001AD9A7 /* DEBIAN */,
+				D1152D6421576E39001AD9A7 /* Library */,
+			);
+			name = Package;
+			sourceTree = "<group>";
+		};
+		D1152D5E21576E39001AD9A7 /* DEBIAN */ = {
+			isa = PBXGroup;
+			children = (
+				D1152D5F21576E39001AD9A7 /* control */,
+			);
+			name = DEBIAN;
+			sourceTree = "<group>";
+		};
+		D1152D6021576E39001AD9A7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D1152D6121576E39001AD9A7 /* LetMeituanCrash-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D1152D6421576E39001AD9A7 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				D1152D6521576E39001AD9A7 /* MobileSubstrate */,
+			);
+			name = Library;
+			sourceTree = "<group>";
+		};
+		D1152D6521576E39001AD9A7 /* MobileSubstrate */ = {
+			isa = PBXGroup;
+			children = (
+				D1152D6621576E39001AD9A7 /* DynamicLibraries */,
+			);
+			name = MobileSubstrate;
+			sourceTree = "<group>";
+		};
+		D1152D6621576E39001AD9A7 /* DynamicLibraries */ = {
+			isa = PBXGroup;
+			children = (
+				D1152D6721576E39001AD9A7 /* LetMeituanCrash.plist */,
+			);
+			name = DynamicLibraries;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D1152D5421576E39001AD9A7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D1152D5621576E39001AD9A7 /* LetMeituanCrash */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1152D6A21576E39001AD9A7 /* Build configuration list for PBXNativeTarget "LetMeituanCrash" */;
+			buildPhases = (
+				D1152D5221576E39001AD9A7 /* Sources */,
+				D1152D5321576E39001AD9A7 /* Frameworks */,
+				D1152D5421576E39001AD9A7 /* Headers */,
+				D1152D5521576E39001AD9A7 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LetMeituanCrash;
+			productName = LetMeituanCrash;
+			productReference = D1152D5721576E39001AD9A7 /* LetMeituanCrash.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D1152D4E21576E39001AD9A7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				TargetAttributes = {
+					D1152D5621576E39001AD9A7 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = D1152D5121576E39001AD9A7 /* Build configuration list for PBXProject "LetMeituanCrash" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D1152D4D21576E39001AD9A7;
+			productRefGroup = D1152D5821576E39001AD9A7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D1152D5621576E39001AD9A7 /* LetMeituanCrash */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D1152D5521576E39001AD9A7 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/opt/MonkeyDev/bin/md --xcbp";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D1152D5221576E39001AD9A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1152D6321576E39001AD9A7 /* LetMeituanCrash.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D1152D6821576E39001AD9A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(MonkeyDevPath)/frameworks/**",
+					"$(MonkeyDevTheosPath)/vendor/lib",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(MonkeyDevTheosPath)/vendor/include/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LIBRARY_SEARCH_PATHS = "$(MonkeyDevTheosPath)/vendor/lib/**";
+				MonkeyDevPath = /opt/MonkeyDev;
+				MonkeyDevTheosPath = /opt/theos;
+				OTHER_CFLAGS = "-DTHEOS_INSTANCE_NAME=\"\\\"LetMeituanCrash\\\"\"";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D1152D6921576E39001AD9A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(MonkeyDevPath)/frameworks/**",
+					"$(MonkeyDevTheosPath)/vendor/lib",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(MonkeyDevTheosPath)/vendor/include/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LIBRARY_SEARCH_PATHS = "$(MonkeyDevTheosPath)/vendor/lib/**";
+				MonkeyDevPath = /opt/MonkeyDev;
+				MonkeyDevTheosPath = /opt/theos;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "-DTHEOS_INSTANCE_NAME=\"\\\"LetMeituanCrash\\\"\"";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = NO;
+			};
+			name = Debug;
+		};
+		D1152D6B21576E39001AD9A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LetMeituanCrash/LetMeituanCrash-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(MonkeyDevPath)/include",
+					"$(MonkeyDevTheosPath)/vendor/include/**",
+				);
+				INSTALL_PATH = /Library/MobileSubstrate/DynamicLibraries;
+				MonkeyDevBuildPackageOnAnyBuild = NO;
+				MonkeyDevClearUiCacheOnInstall = NO;
+				MonkeyDevCopyOnBuild = NO;
+				MonkeyDevDeviceIP = localhost;
+				MonkeyDevDevicePassword = "";
+				MonkeyDevDevicePort = 2222;
+				MonkeyDevInstallOnAnyBuild = YES;
+				MonkeyDevInstallOnProfiling = YES;
+				MonkeyDevkillProcessOnInstall = imeituan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D1152D6C21576E39001AD9A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LetMeituanCrash/LetMeituanCrash-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(MonkeyDevPath)/include",
+					"$(MonkeyDevTheosPath)/vendor/include/**",
+				);
+				INSTALL_PATH = /Library/MobileSubstrate/DynamicLibraries;
+				MonkeyDevBuildPackageOnAnyBuild = NO;
+				MonkeyDevClearUiCacheOnInstall = NO;
+				MonkeyDevCopyOnBuild = NO;
+				MonkeyDevDeviceIP = localhost;
+				MonkeyDevDevicePassword = "";
+				MonkeyDevDevicePort = 2222;
+				MonkeyDevInstallOnAnyBuild = YES;
+				MonkeyDevInstallOnProfiling = YES;
+				MonkeyDevkillProcessOnInstall = imeituan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D1152D5121576E39001AD9A7 /* Build configuration list for PBXProject "LetMeituanCrash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1152D6821576E39001AD9A7 /* Release */,
+				D1152D6921576E39001AD9A7 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1152D6A21576E39001AD9A7 /* Build configuration list for PBXNativeTarget "LetMeituanCrash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1152D6B21576E39001AD9A7 /* Release */,
+				D1152D6C21576E39001AD9A7 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D1152D4E21576E39001AD9A7 /* Project object */;
+}

@@ -177,7 +177,7 @@ Inspired by and built upon the work of:
 [![GitHub Issues](https://img.shields.io/badge/Issues-Questions-FF6B6B?style=for-the-badge&logo=github)](https://github.com/everettjf/Yolo/issues)
 [![GitHub Discussions](https://img.shields.io/badge/Discussions-General-4ECDC4?style=for-the-badge&logo=github)](https://github.com/everettjf/Yolo/discussions)
 
-**有问题？去 [Issues](https://github.com/everettjf/Yolo/issues) 提问！**
+**Create [Issues](https://github.com/everettjf/Yolo/issues) **
 
 </div>
 
